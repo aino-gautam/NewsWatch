@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalystlist>
+	
+ 	<catalyst>
+		<id>1</id>
+		<name>ensarm</name>
+		<pollfreq>43200000</pollfreq>
+		<etag>Editors Choice</etag>
+		<ptag>NZFeed</ptag>
+		<autosync>on</autosync>
+		<feedUserId>6</feedUserId>
+		<feedlist>
+					
+			<!--  Feeds for Novo Nordisk -->
+			<!--   <feed>
+				<feedname>XML stream from Factiva</feedname>
+				<feeddescription>A test feed directly from Factiva without BRS filtering. Feed contains full text and links are not currently pointing to the source.</feeddescription>
+				<url>Factiva Feeds</url>
+				<feedprocessor>com.lighthouse.feed.server.FactivaFeedProcessor</feedprocessor>
+			 </feed> 
+			 <feed>
+				<feedname>RSS stream from MarketScape/Opoint</feedname>
+				<feeddescription>Daily news on Novo Nordisk from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=library%40novonordisk&amp;password=24b1634b51a1dbcafbae6f8323846cde&amp;list_id=150840</url>
+				<feedprocessor>com.lighthouse.feed.server.NNRssFeedProcessor</feedprocessor>
+			 </feed>   
+			
+			 <feed>
+				<feedname>Clinical trials</feedname>
+				<feeddescription>ClinicalTrials.gov: diabetes OR Diabetic OR T1DM OR T2DM OR insulin.</feeddescription>
+				<url>http://clinicaltrials.gov/ct2/results/rss.xml?term=diabetes+OR+Diabetic+OR+T1DM+OR+T2DM+OR+insulin&amp;rcv_d=14&amp;count=10000</url>
+				<feedprocessor>com.lighthouse.feed.server.NNRssFeedProcessor</feedprocessor>
+			</feed> --> 
+			
+	
+			
+			<!-- Feeds for Novozymes  -->
+	    <feed>
+				<feedname>Albumin fusion protein::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Albumin fusion</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=e2814a2d16fce770&amp;c=e5ab599f9236de67f85ac865f51ba919</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Albumin fusion protein:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Albumin fusion protein::Current</feedname>
+				<feeddescription>RSS feed - Current for Albumin fusion</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=0d6308c2ea8b210f&amp;c=33635fa7bbdf0c205fbca94185efeaa3</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Albumin fusion protein:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Albumin fusion protein::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Albumin fusion</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=05f18c84a2d0163c&amp;c=c68140a4e530f413d1f82754c0a8f600</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Albumin fusion protein:</feedPTag>
+			</feed>
+			
+			
+			 <feed>
+				<feedname>Antibody Fragments::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Antibody Fragments</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=7198820019bab2a1&amp;c=e62ca7810f8b694f48724bdc4f96934d</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Antibody Fragments:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Antibody Fragments::Current</feedname>
+				<feeddescription>RSS feed - Current for Antibody Fragments</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=dc10e0247f18ef78&amp;c=70f759c5caa4e8c30c117a4d46d7f2d3</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Antibody Fragments:</feedPTag>
+			</feed> 
+			<feed>
+				<feedname>Antibody Fragments::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Antibody Fragments</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=220240c0aa5ca1b3&amp;c=e4695035adccd9729c9a4b25c32dd6b0</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Antibody Fragments:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Aprotenin::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Aprotenin</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=42c10ad1b3b23156&amp;c=c2af37c88a11f139878e6712f1eecbac</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Aprotenin:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Aprotenin::Current</feedname>
+				<feeddescription>RSS feed - Current for Aprotenin</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=62a11b48fa7ed1f1&amp;c=24b212e3f8fdc1f7d41fd733f8d2e8ca</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Aprotenin:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Aprotenin::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Aprotenin</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=503e22e7d52cc327&amp;c=7a8463e64a46429624cde7d878656c77</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Aprotenin:</feedPTag>
+			</feed>
+				
+				<feed>
+				<feedname>Bacillus::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Bacillus</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=f7424d351d8ec7e6&amp;c=52b5e0525cc72e6f17355cf61a1f9ee1</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Bacillus:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Bacillus::Current</feedname>
+				<feeddescription>RSS feed - Current for Bacillus</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=fab3ec5e69d12d36&amp;c=7cd038de710019510a109fff26683a65</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Bacillus:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Bacillus::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Bacillus</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=99f0465668fe2bdc&amp;c=38b4d45fb6cee75d09ce9950478a4b42</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Bacillus:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Biological drugs::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Biological drugs</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=d76f71ef23b055d8&amp;c=0200bc345096e2c2ccdf63983076c97c</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Biological drugs:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Biological drugs::Current</feedname>
+				<feeddescription>RSS feed - Current for Biological drugs</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=a6f15e08c68b90f9&amp;c=6793b433a88c92bcd7a1aa4aeeb73b00</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Biological drugs:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Biological drugs::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Biological drugs</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=45c8bdc00581e77f&amp;c=0f7abe1aaba2207672158443a0f405a0</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Biological drugs:</feedPTag>
+			</feed>
+			
+			<!-- <feed>
+				<feedname>RSS Feed - Biosis6</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=fac536dea8cdb978&amp;c=b2d652f053472da38f01c3f7ff0cd4af</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed>
+			
+			<feed>
+				<feedname>RSS Feed - Current Contents6</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=25ac660329eacd39&amp;c=35c489b228e07173221922cde19ae492</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed>
+			
+			<feed>
+				<feedname>RSS Feed - WOS6</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=a1fe6ecbece261d2&amp;c=378364027803144e731a0f5e94198839</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed> -->
+			
+			<feed>
+				<feedname>Granulation::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Granulation</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9aad25771002a3a2&amp;c=8d9bf0b9b17794e4c119637971ccba95</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Granulation:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Granulation::Current</feedname>
+				<feeddescription>RSS feed - Current for Granulation</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=72a87f3a7554f6e5&amp;c=fb10c17dbdf335869f7fd4d2578eae89</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Granulation:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Granulation::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Granulation</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=929b3afbc52907f3&amp;c=60c8d2797e79d923394b3b13172831fb</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Granulation:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Hydrophobins::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Hydrophobins</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=a8338e02046b6edb&amp;c=5f47ae53804003e66196032ed8d05804</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Hydrophobins:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Hydrophobins::Current</feedname>
+				<feeddescription>RSS feed - Current for Hydrophobins</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=18fb226deb976143&amp;c=336a9205517dda97537a94e3cc4dde12</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Hydrophobins:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Hydrophobins::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Hydrophobins</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=f518b61e9527b459&amp;c=6cff5d69ec51d4a93b11acbe8b8f246a</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Hydrophobins:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Hydroxypropionic::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Hydroxypropionic</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=7a17beec9188a7ac&amp;c=05ff693a097ccbce80058856712cfd7b</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Hydroxypropionic:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Hydroxypropionic::Current</feedname>
+				<feeddescription>RSS feed - Current for Hydroxypropionic</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9dc36b742a4bcfc5&amp;c=94410ffb79cce743711402baa72e9a32</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Hydroxypropionic:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Hydroxypropionic::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Hydroxypropionic</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=4326b41d3443b197&amp;c=b098c015b30457cb8680f746bb32a63f</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Hydroxypropionic:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Ice Structuring Protein::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Ice Structuring protein</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=3b83399b69fe45e3&amp;c=188d761ed38e56a40e9a90dd9d6755cb</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Ice Structuring Protein:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Ice Structuring Protein::Current</feedname>
+				<feeddescription>RSS feed - Current for Ice Structuring protein</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=544ef5a1267a2155&amp;c=cec208a476c7c27a7511a6d307b7676f</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Ice Structuring Protein:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Ice Structuring Protein::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Ice Structuring protein</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9d7cd44ca10b21a4&amp;c=fbd51c3e82a8788ed2d1893596b9b283</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Ice Structuring Protein:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Pegylation of protein::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Pegylation of protein</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=7ceb3667ed1c0b2d&amp;c=d772350e38ab44f327c93b5697cdd29c</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Pegylation of protein:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Pegylation of protein::Current</feedname>
+				<feeddescription>RSS feed - Current for Pegylation of protein</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=b660e09d425c7e39&amp;c=3ead6a8a0ad4ae44f7a2cc31aa243c4a</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Pegylation of protein:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Pegylation of protein::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Pegylation of protein</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=5d232e5df4d77f03&amp;c=c932c4c78418e4b2ce9ea85922b5c181</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Pegylation of protein:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Protein expression in yeast::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Protein expression in yeast</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=12cbb563397b647f&amp;c=538457d7b9eec904e1fada264bff21c8</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Protein expression in yeast:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Protein expression in yeast::Current</feedname>
+				<feeddescription>RSS feed - Current for Protein expression in yeast</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=888d255666172f55&amp;c=6771acfe19fa30a23cba67105a511ff6</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Protein expression in yeast:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Protein expression in yeast::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Protein expression</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=1d19b4e8ce25168f&amp;c=b4d133bb03272a255f2c196cd2920bb1</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Protein expression in yeast:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Transferrin::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Transferrin</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=03a92c00af8d8659&amp;c=fcc247a90aa251146d86aa55fd0cf676</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Transferrin:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Transferrin::Current</feedname>
+				<feeddescription>RSS feed - Current for Transferrin</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=0cd520d55acdbb5e&amp;c=83fee69bb3ff982250fcae4bf2a6a12e</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Transferrin:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Transferrin::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Transferrin</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=8107da06eab726cd&amp;c=0d0a6938ccccfa31fda9f58531da528b</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Transferrin:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Animal feed enzymes::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Animal feed enzymes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=820ba331a995a8bf&amp;c=debdde774f1e6a66d844dbea0a7d2dc2</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Animal feed enzymes:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Animal feed enzymes::Current</feedname>
+				<feeddescription>RSS feed - Current for Animal feed enzymes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=c70091dcb22502bc&amp;c=fa5ede5ca0371b235bb21e3edfae9b8e</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Animal feed enzymes:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Animal feed enzymes::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Albumin fusion</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=e8c40b6700eeb5d7&amp;c=1a7338a468c8684de21010730564d24f</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Animal feed enzymes:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Aquacultures::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Aquacultures</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=6267d00aa40d82fe&amp;c=a3f343bad164c934dd2887018191fd17</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Aquacultures:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Aquacultures::Current</feedname>
+				<feeddescription>RSS feed - Current for Aquacultures</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=5647b78a7a2648e5&amp;c=466e29b905042fb451932b63415066d5</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Aquacultures:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Aquacultures::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Aquacultures</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=1227e3e1f438cacf&amp;c=88cf570941a6cb2e94881c5b2e5637f7</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Aquacultures:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Carp aquacultures &amp; enzymes::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Carp aquacultures and enzymes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=863e57ae4b9464f8&amp;c=6962e33a0f0c6f080c8930857dd9ce9c</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Carp aquacultures &amp; enzymes:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Carp aquacultures &amp; enzymes::Current</feedname>
+				<feeddescription>RSS feed - Current for Carp aquacultures and enzymes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=3afbd84e6dd479f7&amp;c=6e41466c4f7f02ef5d01637319b7381c</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Carp aquacultures &amp; enzymes:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Carp aquacultures &amp; enzymes::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Carp aquacultures and enzymes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=06b00832e494774d&amp;c=965f4278dff55d2e13794b2d31bd52d8</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Carp aquacultures &amp; enzymes:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Enzymes in animal nutritions::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Enzymes in animal nutritions (pigs, poultry)</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=be144ff4fef37ea1&amp;c=8990c4e2a513abfec59de3dd4c975641</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzymes in animal nutritions:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Enzymes in animal nutritions::Current</feedname>
+				<feeddescription>RSS feed - Current for Enzymes in animal nutritions (pigs, poultry)</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=6747f6c697cd6a2f&amp;c=0348af46f19125099fadf0bfeaee9a48</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzymes in animal nutritions:</feedPTag>
+			</feed>
+				
+				<feed>
+				<feedname>Enzymes in animal nutritions::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Enzymes in animal nutritions (pigs, poultry)</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=020e6a5bc5774d18&amp;c=fa2eb4f82c97277a89ab77910e49523e</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzymes in animal nutritions:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Phytase::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Phytase</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=16dab5a3b931487e&amp;c=b755c62599d227edbd56505e2a2c9918</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Phytase:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Phytase::Current</feedname>
+				<feeddescription>RSS feed - Current for Phytase</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=aa94f1ccd2fc31b9&amp;c=f00cac5fc14a55faf92aad26b43806d7</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Phytase:</feedPTag>
+			</feed>
+		
+			<feed>
+				<feedname>Phytase::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Phytase</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=2b46576528b0336e&amp;c=a4dfb2c3c46925e3ab41397a36e5dcfc</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Phytase:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Xylanases &amp; other enzymes &amp; feed::Biosis(1)</feedname>
+				<feeddescription>RSS feed - Biosis for Xylanases and other enzymes and feed</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=b73378953cd32985&amp;c=31ea805bdade604aa4383d2945c29e04</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Xylanases &amp; other enzymes &amp; feed:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Xylanases &amp; other enzymes &amp; feed::Current(1)</feedname>
+				<feeddescription>RSS feed - Current for Xylanases and other enzymes and feed</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=07eb89fe27d5009a&amp;c=0994296d4e85f01220ea659b87eab9b4</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Xylanases &amp; other enzymes &amp; feed:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Xylanases &amp; other enzymes &amp; feed::WOS(1)</feedname>
+				<feeddescription>RSS feed - WOS for Xylanases and other enzymes and feed</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=cc63010ddcdfb1ac&amp;c=9b5a02879408fb553cf71c70f1ebd482</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Xylanases &amp; other enzymes &amp; feed:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Xylanases &amp; other enzymes &amp; feed::Biosis(2)</feedname>
+				<feeddescription>RSS feed - Biosis for Xylanases and other enzymes and feed</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=6a93a5d7ea6e98cd&amp;c=9147b7a1878a9c0de1c53e0aa8ecb803</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Xylanases &amp; other enzymes &amp; feed:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Xylanases &amp; other enzymes &amp; feed::Current(2)</feedname>
+				<feeddescription>RSS feed - Current for Xylanases and other enzymes and feed</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=1832cad4dce46769&amp;c=dbfbf0724e828fb74783314f716cd809</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Xylanases &amp; other enzymes &amp; feed:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Xylanases &amp; other enzymes &amp; feed::WOS(2)</feedname>
+				<feeddescription>RSS feed - WOS for Xylanases and other enzymes and feed</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=4401fceb32c80023&amp;c=f0aa39ada73414e43d23c5ae84a144a4</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Xylanases &amp; other enzymes &amp; feed:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Xylanases::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Xylanases</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9e9433f891bf15ba&amp;c=7e45a34dfa975d11c1a08dd0d115b2b0</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Xylanases:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Xylanases::Current</feedname>
+				<feeddescription>RSS feed - Current for Xylanases</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=bc6dedf1c06ee950&amp;c=8fbabe7e4075efacf599e5917016a0a9</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Xylanases:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Xylanases::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Xylanases</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=71d1d7c0fc2c3179&amp;c=c1d12af64a829bae748f438626d0844e</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Xylanases:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Algae &amp; biofuels::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Algae and biofuels and CO2 capture</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=bc4714da475c8783&amp;c=f9a7f570d4a68df9149d9e0e8e24601e</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Algae &amp; biofuels:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Algae &amp; biofuels::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Algae and biofuels and CO2 capture</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9d4bb4bae9da49e6&amp;c=5a011d5c891a829b46f4ca86493f3644</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Algae &amp; biofuels:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Cassava &amp; bioethanol::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Cassava and bioethanol</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=5cc182491bade3e6&amp;c=1934a6c509d182e647813c0596e8e492</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Cassava &amp; bioethanol:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Cassava &amp; bioethanol::Current</feedname>
+				<feeddescription>RSS feed - Current for Cassava and bioethanol</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=e7699c9ec6b1fad8&amp;c=2eff8a5e68c8c5b8b689a38f1f54e6ee</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Cassava &amp; bioethanol:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Cassava &amp; bioethanol::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Cassava and bioethanol</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=eee7ee24eafd0200&amp;c=7296f487121e63b604a545e7778a6dfe</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Cassava &amp; bioethanol:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Enzymatic conversion of biomass to bioethanol::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Enzymatic conversion of biomass to bioethanol</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=05fe6706b1f02f8e&amp;c=b9657f06c355c4c805b3914061e89784</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzymatic conversion of biomass to bioethanol:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Enzymatic conversion of biomass to bioethanol::Current</feedname>
+				<feeddescription>RSS feed - Current for Enzymatic conversion of biomass to bioethanol</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=0a87bc539b8fced4&amp;c=9768f43a96547868f9f5701badf9dfe1</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzymatic conversion of biomass to bioethanol:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Enzymatic conversion of biomass to bioethanol::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Enzymatic conversion of biomass to bioethanol</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=cd4d67caa874c6b2&amp;c=a76c2efbf8582c0bc574b2fa104f617e</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzymatic conversion of biomass to bioethanol:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Novel lipase genes::Biosis(1)</feedname>
+				<feeddescription>RSS feed - Biosis for Novel lipase genes or genomes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=c017d48cadf82313&amp;c=7332e3aafd5600541954db81593f5ca9</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Novel lipase genes:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Novel lipase genes::Current(1)</feedname>
+				<feeddescription>RSS feed - Current for Novel lipase genes or genomes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=54a18ae61c307369&amp;c=52da164ab0b5b83f2607221c32b26776</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Novel lipase genes:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Novel lipase genes::WOS(1)</feedname>
+				<feeddescription>RSS feed - WOS for Novel lipase genes or genomes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=bcff0eef553480ba&amp;c=3bf746d6d12536aa65a9781662645ceb</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Novel lipase genes:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Novel lipase/cutinase genes::Biosis(2)</feedname>
+				<feeddescription>RSS feed - Biosis for Novel lipase/cutinase genes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=e1bf4124e3a3e86a&amp;c=424af7ff491209fefd7c3dafbf8f43b9</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Novel lipase/cutinase genes:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Novel lipase/cutinase genes::Current(2)</feedname>
+				<feeddescription>RSS feed - Current for Novel lipase/cutinase genes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=d4ca8c7de7003d85&amp;c=3356e61167dcf3bfb802380fa1892873</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Novel lipase/cutinase genes:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Novel lipase/cutinase genes::WOS(2)</feedname>
+				<feeddescription>RSS feed - WOS for Novel lipase/cutinase genes</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=22cd094d6934ba98&amp;c=fd1149f85377ad446dbc97cb75acbe81</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Novel lipase/cutinase genes:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Codon Optimization::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Codon Optimization</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=e847d0adab058d45&amp;c=fe257fccb2c2fba6f5aad09c9cf98c29</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Codon Optimization:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Codon Optimization::Current</feedname>
+				<feeddescription>RSS feed - Current for Codon Optimization</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=02709686a690e050&amp;c=4a99c24434ab941bf52485752c4ddb1c</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Codon Optimization:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Codon Optimization::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Codon Optimization</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=f0c165b1bc825ba3&amp;c=6759e5509017916331093b227fe086d8</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Codon Optimization:</feedPTag>
+			</feed>
+			
+			<!-- 	<feed>
+				<feedname>RSS Feed - Biosis28</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9832d38fdefac54e&amp;c=74980abd157c7ddd948fd73d0c5baf73</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed>
+				<feed>
+				<feedname>RSS Feed -Current Contents27</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9bfc320947b806f2&amp;c=1b36286cc57046795d5493ef1f643b8c</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed>
+			
+				<feed>
+				<feedname>RSS Feed - WOS28</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=af7f86fb6d85d15b&amp;c=1f01b6427e93a4219ed2be5952894ee0</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed> -->
+			
+				<feed>
+				<feedname>Hydrolysis, derivatisation &amp; amino acids::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Hydrolysis, derivatisation and amino acids</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=fffcc06516bc83fa&amp;c=cf54b2cc65c5f28cc9eb224a94a2021c</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Hydrolysis, derivatisation &amp; amino acids:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Hydrolysis, derivatisation &amp; amino acids::Current</feedname>
+				<feeddescription>RSS feed - Current for Hydrolysis, derivatisation and amino acids</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=287fe868240db77e&amp;c=0ca34ce1f9142d8b9b52825168e9dca9</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Hydrolysis, derivatisation &amp; amino acids:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Hydrolysis, derivatisation &amp; amino acids::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Hydrolysis, derivatisation and amino acids</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=109099e578978a6c&amp;c=37f40d54cc724fd2c78b081301c0b307</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Hydrolysis, derivatisation &amp; amino acids:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Nutristim::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Nutristim</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=6ff866de13042eb0&amp;c=9b8452ca8c5396e00ed58530bdf4fac4</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Nutristim:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Nutristim::Current</feedname>
+				<feeddescription>RSS feed - Current for Nutristim</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=75192668b6bd3019&amp;c=6e05c0a4ce05bb97d5fe5e26d4418daf</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Nutristim:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Nutristim::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Nutristim</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=7549467bf79b6a40&amp;c=839a369b76a31d8811bd0326bca7e35b</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Nutristim:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>HPCE, MECC, CE, MS &amp; carbohydrates, trace metals::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for HPCE or MECC or CE or MS and carbohydrates, trace metals</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=ef735889a618f2c0&amp;c=3be384a9a08e1a5190cc6b9393468baa</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>HPCE, MECC, CE, MS &amp; carbohydrates, trace metals:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>HPCE, MECC, CE, MS &amp; carbohydrates, trace metals::Current</feedname>
+				<feeddescription>RSS feed - Current for HPCE or MECC or CE or MS and carbohydrates, trace metals</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=7fce8815a8b21303&amp;c=94fabed91faed17785496822759965c2</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>HPCE, MECC, CE, MS &amp; carbohydrates, trace metals:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>HPCE, MECC, CE, MS &amp; carbohydrates, trace metals::WOS</feedname>
+				<feeddescription>RSS feed - WOS for HPCE or MECC or CE or MS and carbohydrates, trace metals</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=76af4768269d6166&amp;c=763a6acfab306a1ca52bab0b8e9d0a52</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>HPCE, MECC, CE, MS &amp; carbohydrates, trace metals:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Fermentation::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Fermentation</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=10afda53b04daec9&amp;c=d18058c477aa2b4aad3b7a178b4de772</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Fermentation:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Fermentation::Current</feedname>
+				<feeddescription>RSS feed - Current for Fermentation</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=bfb5af610e9fe5d6&amp;c=d3bc4eb0d1d8b263b99b1a989efc2065</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Fermentation:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Fermentation::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Fermentation</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=2a0f21ad172bd8e6&amp;c=d2b1f37e82afeb181917c19c08857617</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Fermentation:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Immunogenicity::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Immunogenicity</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=f318d464e06f9acd&amp;c=942f76c9596088252f58e34ce0b77b7e</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Immunogenicity:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Immunogenicity::Current</feedname>
+				<feeddescription>RSS feed - Current for Immunogenicity</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=139c42f514ce46d1&amp;c=86812e9fc07e6e4e0017ba528852436f</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Immunogenicity:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Immunogenicity::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Immunogenicity</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=b3e01b100b7531f1&amp;c=f97f3bd443240ca7e0cff189bd917140</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Immunogenicity:</feedPTag>
+			</feed>
+			
+			<feed>
+				<feedname>Aspergillus::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Aspergillus</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=e2e6c695ce97996e&amp;c=222f83201cd4408a182bf37ac5cffca7</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Aspergillus:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Aspergillus::Current</feedname>
+				<feeddescription>RSS feed - Current for Aspergillus</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9c118a1165e6d7a7&amp;c=efe8f301976f94a5497ffcf91833e6de</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Aspergillus:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Aspergillus::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Aspergillus</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=58d2fc2080c4a226&amp;c=2a33c4902f5fc1348baeace47c0d7189</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Aspergillus:</feedPTag>
+			</feed>
+			
+			<!-- 	<feed>
+				<feedname>RSS Feed - Biosis35</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=b990abbedcb3ac48&amp;c=7f4d73f2d7f0c8f73441b912a932de79</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed>
+			
+				<feed>
+				<feedname>RSS Feed - Current Contents34</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=fe7c61cebdaa234a&amp;c=65abba97c3b050efa1a8b37cdbf44462</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed>
+			
+				<feed>s
+				<feedname>RSS Feed - WOS35</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=c30857e3069794ed&amp;c=74dcfaf93f321c0439df7f983b0eb9e8</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed> -->
+			
+				<feed>
+				<feedname>Enzyme allergy in the industry::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Enzyme allergy in the industry</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=00e55421d3a236d5&amp;c=5651bc22f45a3374a7aadfac8b36f33d</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzyme allergy in the industry:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Enzyme allergy in the industry::Current</feedname>
+				<feeddescription>RSS feed - Current for Enzyme allergy in the industry</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=a5bcf0bba1f1951f&amp;c=f509e1dd31a1a36063aa25940770898a</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzyme allergy in the industry:</feedPTag>
+			</feed>
+			
+				<feed>
+				<feedname>Enzyme allergy in the industry::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Enzyme allergy in the industry</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=2a0fb1b1f2f06330&amp;c=31f75cc74ed158c67c1714b4c9fd7bd3</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzyme allergy in the industry:</feedPTag>
+			</feed>
+			
+			<!-- 	<feed>
+				<feedname>RSS Feed - Biosis37</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=d22dc2fbeddbff06&amp;c=cd4ce0a8df96d521732167ace40fac37</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed>
+			
+			<feed>
+				<feedname>RSS Feed - Current Contents36</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=b9e29346362d6a3b&amp;c=ec4786b124f3c85763ec1090318b1442</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed>
+			
+			<feed>
+				<feedname>RSS Feed - WOS37</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=814c0a9100d9c456&amp;c=2732856cad971b1877f1ff774b4d2c17</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed> -->
+			
+			<feed>
+				<feedname>Enzyme Registration::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Enzyme Registration</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=aff5056f35c9b286&amp;c=6f4282cf42e6a4b935e9a0e2b4b3002f</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzyme Registration:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Enzyme Registration::Current</feedname>
+				<feeddescription>RSS feed - Current for Enzyme Registration</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=511fd40a3e552a14&amp;c=6a53f67fa68c74ad4d0e8e2c80547000</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzyme Registration:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Enzyme Registration::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Enzyme Registration</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=65e15758bfdcc824&amp;c=b7f5062bfcf5a7f848c28e8023a56998</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzyme Registration:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Glucose Isomerase::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Glucose Isomerase</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=3644119468302f37&amp;c=c56da3f9b178347f5d44972d2b666647</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Glucose Isomerase:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Glucose Isomerase::Current</feedname>
+				<feeddescription>RSS feed - Current for Glucose Isomerase</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=3bcfb99771e3f796&amp;c=cde9965f19e76b23821fd6d931418745</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Glucose Isomerase:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Glucose Isomerase::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Glucose Isomerase</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=e0c4054ef7c4e8c9&amp;c=7f3f72e3b624c3b19d037da08f686ab0</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Glucose Isomerase:</feedPTag>
+			</feed>
+			
+		<!-- 	
+			<feed>
+				<feedname>RSS Feed - Current Contents39</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=c8895ea7d9033648&amp;c=778d906de2bd7e9bd0b538d45f3c0831</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed>
+			<feed>
+				<feedname>RSS Feed - WOS40</feedname>
+				<feeddescription>This is Rss Feeds</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9b40d0c3fc362172&amp;c=ab040b4c33d89c31b27caa63ab9b12f3</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+			</feed> -->
+			
+			
+			<feed>
+				<feedname>Pasta::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Pasta</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=e1495af7a1869100&amp;c=531c4b07522463d9ed4c4204f3afc2f8</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Pasta:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Pasta::Current</feedname>
+				<feeddescription>RSS feed - Current for Pasta</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=0965635a6049b0fb&amp;c=c441434ef818de855bd17d5eb07165c3</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Pasta:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Pasta::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Pasta</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=d66a2bd862b09e37&amp;c=8d10b3f0971a206a5b071b8f034e6c63</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Pasta:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Baking Science::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Baking</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=9146ba13e3a1e137&amp;c=903a8e3dc0cc8696595d403b24af76b3</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Baking Science:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Baking Science::Current</feedname>
+				<feeddescription>RSS feed - Current for Baking</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=be0b546ccb708d9e&amp;c=d70cfb302543e744f96f71dce06e600a</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Baking Science:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Baking Science::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Baking</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=45546d66987cbe28&amp;c=4468093002d1d134c7f9347ce3b527bd</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Baking Science:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Enzymes in bread making::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Enzymes in bread making</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=b8bf8c6c57c1eb83&amp;c=cd8cc4ce4fed1858e1910c4498102dfd</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzymes in bread making:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Enzymes in bread making::Current</feedname>
+				<feeddescription>RSS feed - Current for Enzymes in bread making</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=bdee0485121be5fd&amp;c=9886db1ebe394b9dd06d950463ad4cd5</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzymes in bread making:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Enzymes in bread making::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Enzymes in bread making</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=2cbb0eeb6363230c&amp;c=aee5db518f8c034c094e9f95f3125103</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Enzymes in bread making:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Brewing Science::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Brewing</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=dc956c60328e7fca&amp;c=49744cc8c77186d64ef872cd2462d7d8</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Brewing Science:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Brewing Science::Current</feedname>
+				<feeddescription>RSS feed - Current for Brewing</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=ca908bb1026545d5&amp;c=afc3515919ef8bb1c83fb2bc6fc7c07a</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Brewing Science:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Brewing Science::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Brewing</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=c8bf866d3d875f88&amp;c=84c735ae035647b22b3ddf5e338d5bca</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Brewing Science:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Wheat &amp; arabinoxylanase::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Wheat and arabinoxylanase</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=7b8143d21334d280&amp;c=2f52c610fcdff12c8a06becf74a2b32c</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Wheat &amp; arabinoxylanase:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Wheat &amp; arabinoxylanase::Current</feedname>
+				<feeddescription>RSS feed - Current for Wheat and arabinoxylanase</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=3c22fa17c24aee21&amp;c=8657e6a04232b593d5214dfc5f01bdba</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Wheat &amp; arabinoxylanase:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Wheat &amp; arabinoxylanase::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Wheat and arabinoxylanase</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=fa53b7003174c029&amp;c=afc4354c4f26f726352e5dcba9e9fb4a</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Wheat &amp; arabinoxylanase:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Wheat gluten structure::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Wheat gluten structure</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=f36ace20c9e43fca&amp;c=d3c172447e472327ebec874fe3ea2b86</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Wheat gluten structure:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Wheat gluten structure::Current</feedname>
+				<feeddescription>RSS feed - Current for Wheat gluten structure</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=919f4d36150a84a9&amp;c=337a2a105c791db03f29fb5116445fe2</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Wheat gluten structure:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Wheat gluten structure::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Wheat gluten structure</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=7ef0e6ec785d897c&amp;c=1ba3c2c1624cfcaad65c03b9a16e7b9d</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Wheat gluten structure:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Bioactive peptides::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Bioactive peptides</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=fc9820905efcddc9&amp;c=03749d7f6cf75f0f1ed1eb1fa65f69fe</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Bioactive peptides:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Bioactive peptides::Biosis</feedname>
+				<feeddescription>RSS feed - Current for Bioactive peptides</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=b247c37009948d90&amp;c=e16d87b3ca277251644530e26784c10a</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Bioactive peptides:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Bioactive peptides::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Bioactive peptides</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=7a4672a91bed2808&amp;c=d77827ed630a9d370c9572ae670b3d7e</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Bioactive peptides:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Acrylamide in food::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Acrylamide in food</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=08a51a24af3c2b74&amp;c=ae9008ebf2c206908ef1d1bd85130092</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Acrylamide in food:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Acrylamide in food::Current</feedname>
+				<feeddescription>RSS feed - Current for Acrylamide in food</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=d160dc28622339ac&amp;c=d82e2329923208e0f5b842246fab2ea2</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Acrylamide in food:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Acrylamide in food::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Acrylamide in food</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=ac6712001b3d4544&amp;c=3b9d63f103731e1edac2b8033dab3f33</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Acrylamide in food:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Starch hydrolysis::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Starch hydrolysis</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=f45cd13a8e21671f&amp;c=01e9827b908c71794e11ac7f8adfe403</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Starch hydrolysis:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Starch hydrolysis::Biosis</feedname>
+				<feeddescription>RSS feed - Current for Starch hydrolysis</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=ea79c9a7549f6cd6&amp;c=6a67fd37bcdd9a430b99c7431ba46078</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Starch hydrolysis:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Starch hydrolysis::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Starch hydrolysis</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=8d09c87a73dbde8a&amp;c=77a0aa5b73959606be1d0f8d96ed7f54</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Starch hydrolysis:</feedPTag>
+			</feed>
+			
+			
+			<feed>
+				<feedname>Fats, lipids &amp; detergents::Biosis</feedname>
+				<feeddescription>RSS feed - Biosis for Fats, lipids and detergents and lipases esterases</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=3e07a14c89d03d2f&amp;c=ba2ea2f30cd2a000d31183cd8a2758b6</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Fats, lipids &amp; detergents:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Fats, lipids &amp; detergents::Current</feedname>
+				<feeddescription>RSS feed - Current for Fats, lipids and detergents and lipases esterases</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=bc97101916640e8a&amp;c=8c15733780b5a773e723e1dfcdf39b2c</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Fats, lipids &amp; detergents:</feedPTag>
+			</feed>
+			<feed>
+				<feedname>Fats, lipids &amp; detergents::WOS</feedname>
+				<feeddescription>RSS feed - WOS for Fats, lipids and detergents and lipases esterases</feeddescription>
+				<url>http://rss.webofknowledge.com/rss?e=45ae1e50c57cde4c&amp;c=7e4f6bcdb8a2966cbf0f2096a1aee636</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Fats, lipids &amp; detergents:</feedPTag>
+			</feed>   
+			
+		</feedlist>
+	</catalyst> 
+
+       <catalyst>
+		<id>9</id>
+		<name>Mscape2</name>
+		<pollfreq>43200000</pollfreq>
+		<ptag>Mscape2Feed</ptag>
+		<etag>Editors Choice</etag>
+		<autosync>on</autosync>
+		<feedUserId>6</feedUserId>
+		<feedlist>
+			 <feed>
+				<feedname>MarketScape - Influenza (news)</feedname>
+				<feeddescription>Daily news on Novo Nordisk from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;list_id=156187</url>
+				<feedprocessor>com.lighthouse.feed.server.NNRssFeedProcessor</feedprocessor>
+				<feedPTag></feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>MarketScape - Meningitis (news)</feedname>
+				<feeddescription>Daily news on Novo Nordisk from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;list_id=156192</url>
+				<feedprocessor>com.lighthouse.feed.server.NNRssFeedProcessor</feedprocessor>
+				<feedPTag></feedPTag>
+			 </feed>
+		</feedlist>
+	</catalyst>  
+
+       <catalyst>
+		<id>12</id>
+		<name>Mscape5</name>
+		<pollfreq>43200000</pollfreq>
+		<ptag>Mscape5Feed</ptag>
+		<etag>Editors Choice</etag>
+		<autosync>on</autosync>
+		<feedUserId>6</feedUserId>
+		<feedlist>
+			 <feed>
+				<feedname>Advances in Immunology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53693&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Autoimmunity Reviews</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53770&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed> 
+			 <feed>
+				<feedname>Biotechnology Journal</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53755&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 
+			  <feed>
+				<feedname>Cell</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53709&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Current Opinion in Biotechnology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53778&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Current Opinion in Immunology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53780&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			  <feed>
+				<feedname>Diabetes</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53274&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			  <feed>
+				<feedname>European Journal of Immunology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53735&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			  <feed>
+				<feedname>European Journal of Pharmaceutics and Biopharmaceu</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53781&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Expert Opinion on Biological Therapy</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53281&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Genes and Immunity</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53289&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Immunity</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53722&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Journal of Autoimmunity</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53648&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Journal of Biotechnology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53649&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Journal of Clinical Investigation</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53251&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Journal of Immunological Methods</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53652&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Journal of Rheumatology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53273&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>mAbs</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53269&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Nature</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:13596&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Nature Biotechnology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53681&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Nature Genetics</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53728&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Nature Immunology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53760&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Nature Medicine</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53761&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Nature Reviews Drug Discovery</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53694&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Nature Reviews Immunology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53798&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Nature Reviews Rheumatology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53762&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>The New England Journal of Medicine</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:12648&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>PloS Biology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53277&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>PloS Genetics</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53280&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>PloS Hub For Clinical Trial</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53261&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>PloS Medicine</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53292&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>PloS One</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53252&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>PNAS</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53295&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Protein Engineering Design and Selection (PEDS)</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53877&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>Science Magazine</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53290&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			 <feed>
+				<feedname>The Lancet</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:22281&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			  <feed>
+				<feedname>Trends in Biotechnology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53748&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			  <feed>
+				<feedname>Trends in Immunology</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53787&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			  <feed>
+				<feedname>Trends in Molecular Medicine</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53737&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			  <feed>
+				<feedname>Trends in Pharmacological Sciences</feedname>
+				<feeddescription>Daily news from 1000s of online media.</feeddescription>
+				<url>http://rss.opoint.com/?username=feeds@marketscape&amp;password=1ccfa82334b10f013aa30e562eaad7b2&amp;search_str=site:53788&amp;body=true</url>
+				<feedprocessor>com.lighthouse.feed.server.NZRssFeedProcessor</feedprocessor>
+				<feedPTag>Journals</feedPTag>
+			 </feed>
+			</feedlist>
+	</catalyst>
+
+ </catalystlist>

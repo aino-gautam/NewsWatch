@@ -1,0 +1,683 @@
+.lblAbstract {
+	
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: 1.2307em;
+	color: #666666;
+	text-align: left;
+	padding-left: 3px;
+}
+
+.siloLogoHeight{
+	height:30px;
+}
+
+.siloLogoWidth{
+	width: 150px; 
+}
+
+.primaryTag {
+	font-weight: bold;
+	color: #B7152A; /* #CF9494; */
+}
+
+.lblRelatedTag {
+	font-family: Arial;
+	font-size: 8pt;
+	font-stretch: extra-expanded;
+	color: rgb(0, 102, 202);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.lblRelatedTagTitle {
+	font-family: Arial;
+	font-size: 11pt;
+	font-stretch: extra-expanded;
+	color: rgb(0, 102, 202);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.lblRelatedTagHover {
+	font-family: Arial;
+	font-size: 8pt;
+	font-stretch: extra-expanded;
+	color: rgb(0, 128, 0);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-stretch: extra-expanded;
+}
+
+.newsItemViewsLabel {
+	font-family: Arial;
+	line-height: 1.272727272 em;
+	font-size: 8pt;
+	font-stretch: extra-expanded;
+	color: #5f88ce;
+	margin-right: 10px;
+}
+
+.newsItemCommentsLabel {
+	font-family: Arial;
+	line-height: 1.272727272 em;
+	font-size: 8pt;
+	font-stretch: extra-expanded;
+	color: #5f88ce;
+	margin-right: 10px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.newsItemCommentsLabelHover {
+	color: #6B6868;
+}
+
+.newsItemGeneralLbl {
+	font-family: Arial;
+	font-size: 8pt;
+	font-stretch: extra-expanded;
+	color: rgb(110, 110, 110);
+	line-height: 1.272727272 em;
+	padding-right: 5px;
+	padding-left: 3px;
+}
+
+.imageBorder {
+	border: 1px solid rgb(196, 196, 196);
+	margin-left: 5px;
+}
+
+.newsimage {
+	margin: 5px 5px 5px 5px;
+	height: 65px;
+	width: 65px;
+}
+
+.newsItemGeneralDetailsPanel {
+	margin: 1px 0px 1px 0px;
+}
+
+.newsItemCommentsPanel {
+	margin: 8px 0px 0px 0px;
+	padding-left: 3px;
+}
+
+.lblAbstract {
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: 1.2307em;
+	color: #666666;
+	text-align: left;
+	padding-left: 3px;
+}
+
+.lblRelatedTag {
+	font-family: Arial;
+	font-size: 8pt;
+	font-stretch: extra-expanded;
+	color: rgb(0, 102, 202);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.lblRelatedTagHover {
+	font-family: Arial;
+	font-size: 8pt;
+	font-stretch: extra-expanded;
+	color: rgb(0, 128, 0);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-stretch: extra-expanded;
+}
+
+.newsItemCommentsLabel {
+	font-family: Arial;
+	line-height: 1.272727272em;
+	font-size: 8pt;
+	font-stretch: extra-expanded;
+	color: #5f88ce;
+	margin-right: 10px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.newsItemCommentsLabelHover {
+	color: #6B6868;
+}
+
+.newsItemGeneralLbl {
+	font-family: Arial;
+	font-size: 8pt;
+	font-stretch: extra-expanded;
+	color: rgb(110, 110, 110);
+	line-height: 1.272727272em;
+	padding-right: 5px;
+	padding-left: 3px;
+}
+
+.imageBorder {
+	border: 1px solid rgb(196, 196, 196);
+	margin-left: 5px;
+}
+
+.newsimage {
+	margin: 5px 5px 5px 5px;
+	height: 65px;
+	width: 65px;
+}
+
+.newsitemview {
+	margin: 3px 0px;
+	width: 100%;
+	
+}
+.newsitemviewhover{
+	border: 2px inset black;
+}
+.newsItemGeneralDetailsPanel {
+	margin: 1px 0px 1px 0px;
+}
+
+.newsItemCommentsPanel {
+	margin: 3px 0px 0px 0px;
+	padding-left: 3px;
+}
+
+.gcomp-GlassPanel1 {
+	background-color: white;
+	filter: alpha(opacity =         50);
+	opacity: .50;
+	z-index: 1;
+	margin-top: -16.9em;
+}
+
+.gcomp-GlassPanel2 {
+	background-color: white;
+	filter: alpha(opacity =         50);
+	opacity: .50;
+	z-index: 1;
+	margin-top: -16.9em;
+}
+
+.reportDeadLink {
+	-width: 250px;
+	-height: 100x;
+	-background-color: #d0e4f6;
+}
+
+.curvedPopup {
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+
+.disabled {
+	background-color: #CCC;
+}
+
+.postCommnet-panel {
+	display: block;
+	background-color: #E5ECF3;
+	margin-left: 25px;
+	padding: 10px 2px;
+}
+
+.NewsItem {
+	
+}
+
+.newsTitle {
+	font-size: 8pt :
+}
+
+.postCommentButton {
+	padding: 4px;
+	-moz-border-radius: 9px; /* FF1+ */
+	-webkit-border-radius: 9px; /* Saf3-4 */
+	border-radius: 3px; /* Opera 10.5, IE 9, Saf5, Chrome */
+	margin-right: 3px;
+	font-family: Arial;
+	background-color: #1C417A;
+	color: #FFFFFF;
+	margin-top: 2px;
+	margin-left: 350px;
+	margin-right: auto font-size :     8pt;
+	text-align: left;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.textArea {
+	padding: 10px 0px 0px 10px;
+	/* display: block; */
+	margin-top: -2.4em;
+	margin-left: 38px;
+	margin-right: auto
+}
+
+.NewsItem { /* display: block; */
+	margin-left: 20px;
+	margin-right: auto
+}
+
+.loadImage {
+	margin-left: 480px;
+	margin-right: auto
+}
+
+.labelfont {
+	display: block;
+	margin-top: 1em;
+	font-weight: bold;
+	font-size: 130%;
+	margin-left: 25px;
+}
+
+.labelLine {
+	color: #999999;
+}
+
+.commentBoxImg { /* display: block; */
+	margin-left: 10px;
+	margin-bottom: 0.5em;
+}
+
+.commentText {
+	color: black;
+}
+
+.titleLabel {
+	font-size: 105%;
+	border-bottom-style: inset;
+	margin: 2px 0px;
+	padding : 2px;
+}
+
+.newsStatisticsFlex {
+	margin-bottom: 10px;
+}
+.alertsTab .gwt-TabBar { 
+	
+}
+
+.alertsTab .gwt-TabBar .gwt-TabBarFirst {
+	width: 0px;
+}
+
+.alertsTab .gwt-TabBar .gwt-TabBarRest {
+	
+}
+
+.alertsTab .gwt-TabBar .gwt-TabBarItem {
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	margin-right: 0px;
+	padding: 6px 6px;
+	cursor: pointer;
+	cursor: hand;
+	color: white;
+	text-align: center;
+	border: none;
+	outline: none;
+	background-image: url("images/black_bckGradient.JPG");
+	background-repeat: repeat-x;
+	-moz-border-radius: 5px 5px 0px 0px; /* FF1+ */
+	-webkit-border-radius: 5px 5px 0px 0px; /* Saf3-4 */
+	border-radius: 5px 5px 0px 0px; /* Opera 10.5, IE 9, Saf5, Chrome */
+
+}
+.alertsTab .gwt-TabBar .gwt-TabBarItem-selected {
+	cursor: default;
+	background: rgb(101, 101, 101); 
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+}
+.alertsTab .gwt-TabBar .gwt-TabBarItem-disabled {
+	cursor: default;
+	color: #999999;
+}
+.alertsTab .gwt-TabBarItem-wrapper {
+	padding: 0px;
+	margin: 0px;
+}
+.alertsTab .gwt-TabBarItem-wrapper-selected{
+	padding: 0px;
+	margin: 0px;
+}
+.alertsTab .gwt-TabPanel {
+	border-color: rgb(101, 101, 101);
+	border-style: solid;
+	border-width: 5px 1px 1px 1px;
+	overflow: hidden;
+	padding: 5px;
+	margin-left: 2px;
+}
+
+.alertsTab .gwt-TabPanelBottom {
+	border-color: rgb(101, 101, 101);
+	border-style: solid;
+	border-width: 5px 1px 1px 1px;
+	overflow: hidden;
+	padding: 5px;
+	margin-left: 2px;
+}
+
+.groupTab .gwt-TabBar { /* margin-top: 10px;  */
+	
+}
+
+.groupTab .gwt-TabBar .gwt-TabBarFirst {
+	width: 0px;
+}
+
+.groupTab .gwt-TabBar .gwt-TabBarRest {
+	
+}
+
+.groupTab .gwt-TabBar .gwt-TabBarItem {
+	
+	padding: 0px 0px !important;
+	background: white;
+
+}
+.groupTab .gwt-TabBar .gwt-TabBarItem-selected {
+	cursor: default;
+	/* background: rgb(101, 101, 101); */
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+}
+.groupTab .gwt-TabBar .gwt-TabBarItem-disabled {
+	cursor: default;
+	color: #999999;
+}
+.groupTab .gwt-TabBarItem-wrapper {
+	padding: 0px;
+	margin: 0px;
+}
+.groupTab .gwt-TabBarItem-wrapper-selected{
+	padding: 0px;
+	margin: 0px;
+}
+.groupTab .gwt-TabPanel {
+	border-color: rgb(101, 101, 101);
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+	overflow: hidden;
+	padding: 0px;
+	margin-left: 2px;
+}
+
+.groupTab .gwt-TabPanelBottom {
+	border-color: rgb(101, 101, 101);
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+	overflow: hidden;
+	padding: 0px;
+	margin-left: 2px;
+}
+.newGroupImage{
+	margin: 0px 0px 6px 2px;
+}
+.primaryTagPanel {
+	height: 25px;
+	background-color: #EFEFEF;
+	margin-bottom: 5px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.primaryTagLabel {
+	font-size: 125%;
+	text-indent: 5px;
+	margin: 3px 3px;
+}
+
+.primaryTagLabelHover {
+	font-weight: bold;
+}
+
+.popupLabel {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.groupTabWidgetLabel {
+	width: auto;
+	font-weight: bold;
+}
+
+.groupTabWidget {
+	margin: 0px 10px;
+}
+.favGroupBg{
+	/*changed back to normal --- below is original css */
+	/*background: #FFFECE;*/
+	
+	margin-bottom: 5px; 
+	padding: 6px;
+}
+.favgroupTabWidget{
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	margin-right: 0px;
+	padding: 6px 6px;
+	cursor: pointer;
+	cursor: hand;
+	
+	/*changed back to normal --- below is original css */
+	/*color: rgb(101, 101, 101); */
+	color:white;
+	
+	text-align: center;
+	border: none;
+	outline: none;
+	-moz-border-radius: 5px 5px 0px 0px; /* FF1+ */
+	-webkit-border-radius: 5px 5px 0px 0px; /* Saf3-4 */
+	border-radius: 5px 5px 0px 0px; /* Opera 10.5, IE 9, Saf5, Chrome */
+}
+.favgroupTabWidgetBg{
+	/*yellow*/
+	/* background: #f9f2bb; Old browsers
+	background: -moz-linear-gradient(top, #f9f2bb 0%, #f9f48b 50%, #f9f25e 51%, #f4e94b 100%); FF3.6+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f2bb), color-stop(50%,#f9f48b), color-stop(51%,#f9f25e), color-stop(100%,#f4e94b)); Chrome,Safari4+
+	background: -webkit-linear-gradient(top, #f9f2bb 0%,#f9f48b 50%,#f9f25e 51%,#f4e94b 100%); Chrome10+,Safari5.1+
+	background: -o-linear-gradient(top, #f9f2bb 0%,#f9f48b 50%,#f9f25e 51%,#f4e94b 100%); Opera 11.10+
+	background: -ms-linear-gradient(top, #f9f2bb 0%,#f9f48b 50%,#f9f25e 51%,#f4e94b 100%); IE10+
+	background: linear-gradient(top, #f9f2bb 0%,#f9f48b 50%,#f9f25e 51%,#f4e94b 100%); W3C
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f2bb', endColorstr='#f4e94b',GradientType=0 ); IE6-9 */
+	
+	/* green 1
+	background: #dae6c0; Old browsers
+	background: -moz-linear-gradient(top,  #dae6c0 0%, #dae6c0 50%, #c2e0bc 51%, #acc6a7 100%); FF3.6+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dae6c0), color-stop(50%,#dae6c0), color-stop(51%,#c2e0bc), color-stop(100%,#acc6a7)); Chrome,Safari4+
+	background: -webkit-linear-gradient(top,  #dae6c0 0%,#dae6c0 50%,#c2e0bc 51%,#acc6a7 100%); Chrome10+,Safari5.1+
+	background: -o-linear-gradient(top,  #dae6c0 0%,#dae6c0 50%,#c2e0bc 51%,#acc6a7 100%); Opera 11.10+
+	background: -ms-linear-gradient(top,  #dae6c0 0%,#dae6c0 50%,#c2e0bc 51%,#acc6a7 100%); IE10+
+	background: linear-gradient(top,  #dae6c0 0%,#dae6c0 50%,#c2e0bc 51%,#acc6a7 100%); W3C
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dae6c0', endColorstr='#acc6a7',GradientType=0 ); IE6-9 */
+	
+	/* 
+	changed back to normal --- below is original css
+	background: #dae6c0; Old browsers
+	background: -moz-linear-gradient(top,  #dae6c0 0%, #d6e5c0 50%, #bbd1af 51%, #b0c4a4 100%); FF3.6+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dae6c0), color-stop(50%,#d6e5c0), color-stop(51%,#bbd1af), color-stop(100%,#b0c4a4)); Chrome,Safari4+
+	background: -webkit-linear-gradient(top,  #dae6c0 0%,#d6e5c0 50%,#bbd1af 51%,#b0c4a4 100%); Chrome10+,Safari5.1+
+	background: -o-linear-gradient(top,  #dae6c0 0%,#d6e5c0 50%,#bbd1af 51%,#b0c4a4 100%); Opera 11.10+
+	background: -ms-linear-gradient(top,  #dae6c0 0%,#d6e5c0 50%,#bbd1af 51%,#b0c4a4 100%); IE10+
+	background: linear-gradient(top,  #dae6c0 0%,#d6e5c0 50%,#bbd1af 51%,#b0c4a4 100%); W3C
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dae6c0', endColorstr='#b0c4a4',GradientType=0 ); IE6-9 */
+
+	background-image: url("images/black_bckGradient.JPG");
+	background-repeat: repeat-x;
+}
+.favgroupTabWidgetBgSelected{
+	/*changed back to normal --- below is original css */
+	/*background: #d6e5c0;  */ 
+	/* #f9f48b;  */
+	
+	background: rgb(101, 101, 101);
+}
+.groupTabWidgetBg{
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	margin-right: 0px;
+	padding: 6px 6px;
+	cursor: pointer;
+	cursor: hand;
+	color: white;
+	text-align: center;
+	border: none;
+	outline: none;
+	background-image: url("images/black_bckGradient.JPG");
+	background-repeat: repeat-x;
+	-moz-border-radius: 5px 5px 0px 0px; /* FF1+ */
+	-webkit-border-radius: 5px 5px 0px 0px; /* Saf3-4 */
+	border-radius: 5px 5px 0px 0px; /* Opera 10.5, IE 9, Saf5, Chrome */
+}
+.groupTabWidgetBgSelected{
+	background: rgb(101, 101, 101); 
+}
+.groupTabWidget::HOVER {
+	margin: 0px 10px;
+}
+.pushBtn { 
+	border: none;
+	outline: none;
+}
+
+.closeImg {
+	border: none;
+	outline: none;
+}
+.moreGroupsMenu .gwt-MenuBar {
+  cursor: default;
+}
+.moreGroupsMenu .gwt-MenuBar .gwt-MenuItem {
+  cursor: default;
+}
+.moreGroupsMenu .gwt-MenuBar .gwt-MenuItem-selected {
+  background: white;
+}
+.moreGroupsMenu .gwt-MenuBar .gwt-MenuItem-disabled {
+  color: #c0c0c0;
+}
+.moreGroupsMenu .gwt-MenuBar-vertical {
+  margin-top: 0px;
+  margin-left: 0px;
+  background: white;
+}
+.moreGroupsMenu .gwt-MenuBar-vertical table {
+  border-collapse: collapse;
+}
+.moreGroupsMenu .gwt-MenuBar-vertical .gwt-MenuItem {
+  padding: 0px !important;
+}
+.moreGroupsMenu .gwt-MenuBar-vertical .gwt-MenuItemSeparator {
+  padding: 2px 0px;
+}
+.moreGroupsMenu .gwt-MenuBar-vertical .gwt-MenuItemSeparator .menuSeparatorInner {
+  height: 1px;
+  padding: 0px;
+  border: 0px;
+  border-top: 1px solid #777777;
+  background: #ddddee;
+  overflow: hidden;
+}
+.moreGroupsMenu .gwt-MenuBar-vertical .subMenuIcon {
+  padding-right: 0px !important;
+}
+.moreGroupsMenu .gwt-MenuBar-vertical .subMenuIcon-selected {
+  background: white;
+}
+
+.titleLabelAct{
+	padding : 4px;
+	font-size: 105%;
+	border-bottom-style: inset;
+}
+.errorLabel{
+	color : red;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+
+/******** review feed css ***************/
+.markedItem{
+	font-weight: bold;
+	color: orange;
+}
+.feedListBox{
+	/* margin: 8px 0px 5px 25px; */
+	margin: 8px 0px 5px 0px;
+	-moz-border-radius: 2px 2px 0px 0px; /* FF1+ */
+	-webkit-border-radius: 2px 2px 0px 0px; /* Saf3-4 */
+	border-radius: 2px 2px 0px 0px; /* Opera 10.5, IE 9, Saf5, Chrome */
+}
+.reviewNewsButton{
+	-moz-border-radius: 3px; /* FF1+ */
+	-webkit-border-radius: 3px; /* Saf3-4 */
+	border-radius: 3px; /* Opera 10.5, IE 9, Saf5, Chrome */
+	margin-left: 0px;
+	position: relative;
+	left: 0%;
+	height: 35 px;
+}
+.reviewNewsButtonPanel{
+	/* margin:  5px 0px 0px 5px; */
+	margin:  5px 0px 0px 0px;
+}
+.orLabel{
+	margin-left: 10px; 
+	font-family: Arial;
+	font-size: 10pt;
+	font-stretch: extra-expanded;
+	font-weight: bold;
+}
+.chooseFeedLabel{
+	color : navy;
+	margin-left: 0px;
+}
+.verticalNewsPanel{
+	border-top: 1px solid gray;
+	widows: 100%;
+}
+.newsletterSentLabel{
+	font-family: 'Lucida Grande';
+	font-size: 12pt;
+	font-style: italic;
+	color : #333333;
+}
+.feedInfoLabel{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-stretch: extra-expanded;
+	color: #404040;  /* rgb(110, 110, 110); */
+	line-height: 1.272727272 em;
+	padding-right: 5px;
+	padding-left: 3px;
+}
+.feedInfoLabelText{
+	/* color : black; */
+	font-weight: bold;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.2.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.2.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to="com.lighthouse.newspage.newspage">
+	<source path="client" />
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name='com.google.gwt.user.theme.standard.Standard'/>
+	<inherits name='com.lighthouse.login.user.lhuser' />
+	<inherits name='com.newscenter.NewsCenter' /> 
+	<inherits name='com.lighthouse.comment.comment' />
+	<inherits name='com.lighthouse.main.lhmain' />
+	
+	<entry-point class='com.lighthouse.newspage.client.NewsItemHome' />
+
+	<servlet path='/comments' class='com.lighthouse.comment.server.ItemCommentServiceImpl' />
+</module>

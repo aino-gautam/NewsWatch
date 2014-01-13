@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Design>
+
+<table>
+	<width>100%</width>
+	<backgroundColor>#fffff</backgroundColor>
+	<backgroundImage>configImages/nc1_siloLogo.jpg</backgroundImage>
+	<UseUploadedImg>false</UseUploadedImg>
+	<backgroundImageUrl>configImages/NC1bgImg.jpg</backgroundImageUrl>
+</table>
+</Design>

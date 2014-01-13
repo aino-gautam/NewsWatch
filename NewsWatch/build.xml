@@ -1,0 +1,116 @@
+<project name="NewsCenter" basedir="." default="init">
+    <echo message="Starting the ant build script" />
+    <!-- Define the environment property variable -->
+    <property environment="env" />
+    <!-- Load changable properties from build.properties file -->
+    <!-- <property file="build.properties" /> -->
+    
+<!-- Set the environment properties for the project -->
+    <property name="tomcat.dir" value="/usr/local/tomcat" />
+    <!-- Set the unchangable properties for the project -->
+    <!--<property name="app" value="Rebuild_Gxt" />-->
+    <property name="webcontent.dir" value="${basedir}/WebContent" />
+	
+	<property name="src.dir" location="src"/>
+	<property name="lib.dir" location="war/WEB-INF/lib"/>
+    <property name="classes.out.dir" value="war/WEB-INF/classes" />
+   <!-- <property name="www.dir" value="${webcontent.dir}/com.diknows.crm.Dino" /> -->
+    <property name="dist.dir" value="${basedir}/dist" />
+    <property name="package.dir" value="src/com/login"/>
+    <property name="package" value="src/com/login"/>
+    <!--<property name="gwt.module.name" value="src/com/ensarm/SprintPlanner/SprintPlanner.gwt.xml"/>    -->    
+	<!-- Set the classpath for the project -->
+    <path id="classpath">
+        <pathelement location="${src.dir}" />
+        <pathelement location="${classes.out.dir}" />
+        <fileset dir="${lib.dir}">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+    <!-- Initializes the directory and starting time-->
+    <target name="init">
+        <!-- Create the time stamp -->
+        <tstamp />
+        <echo message="Building on ${TODAY} at ${TSTAMP}" />
+        <!-- Create directory structures -->
+        <mkdir dir="${classes.out.dir}" />
+        <mkdir dir="${webcontent.dir}" />
+        <mkdir dir="${www.dir}" />
+        <mkdir dir="${dist.dir}" />
+    </target>
+    <!-- The Clean GWT Target -->
+    <target name="clean-gwt" description="Cleans directories created during gwt build">
+        <delete dir="${www.dir}" />
+    </target>
+
+    <!-- The Clean Java Classes Target -->
+    <target name="clean" description="Cleans directories created during java build">
+        <delete dir="${classes.out.dir}" />
+    </target>
+    <!-- The GWT Compile Target -->
+    <target name="gwt-compile" depends="clean-gwt, init" description="Execute the GWT compiler on client-side code">
+        <!-- Invoke the GWT compiler -->
+        <java classpathref="classpath" classname="com.google.gwt.dev.GWTCompiler" fork="true" maxmemory="512m">
+            <arg value="-out" />
+            <arg value="${webcontent.dir}" />
+            <arg value="${package}.Dino" />
+        </java>
+        <delete dir="${classes.out.dir}/${package.dir}/public"></delete>
+    </target>
+   
+	 <!-- The JAVA Compile Target -->
+	    <target name="compile" depends="clean, init" description="Compile server side java code">
+	        <javac srcdir="${src.dir}" destdir="${classes.out.dir}" debug="false" source="1.6" excludes="**/client/*.java,**/*.xml">
+	            <classpath refid="classpath" />
+	            <compilerarg value="-Xlint" />
+	        </javac>
+	        <delete dir="${classes.out.dir}/com" includes="**/*.java" excludes="**/*.class,**/*.xml"></delete>
+	    </target>
+
+
+	    <target name="prepare-www-dir" depends="init" description="Copy files to ${www.dir} directory">
+	        <!-- copy all public files to $www.dir -->
+	        <copy todir="${www.dir}">
+	            <fileset dir="${src.dir}/${package.dir}/public" />
+	        </copy>
+	        <copy todir="${classes.out.dir}">
+	            <fileset dir="${src.dir}" excludes="com" />
+	        </copy>
+	    </target>
+	
+     	<!--Builds the war file in dist directory -->
+	    <target name="build" depends="compile,gwt-compile" description="Builds the ${app}.war file in ${dist} directory">
+	        <war destfile="${dist}/${app}.war" webxml="${webcontent.dir}/WEB-INF/web.xml">
+	          <fileset dir="${webcontent.dir}"/>
+	          <lib dir="${lib.dir}"/>
+	          <classes dir="${classes.out.dir}"/>
+	        </war>
+	    </target>
+	    
+	  <!-- Copy the war file to the server webapps directory -->
+	    <target name="deploy" description="Deploy the war file">
+	        <delete file="${tomcat.dir}/webapps/${app}.war" />
+	        <copy todir="${tomcat.dir}/webapps" file="${dist.dir}/${app}.war" />
+	    </target>
+	  
+	<!-- Starting tomcat server -->
+	    <target name="tomcat-start" description="Starting Tomcat Server">
+	        <java jar="${tomcat.dir}/bin/bootstrap.jar" fork="true">
+	        <jvmarg value="-Dcatalina.home=${tomcat.dir}"/>
+	        </java>
+	    </target>
+     
+	 <!-- Stopping tomcat server -->
+	    <target name="tomcat-stop" description="Stopping Tomcat Server">
+	        <java jar="${tomcat.dir}/bin/bootstrap.jar" fork="true">
+	        <jvmarg value="-Dcatalina.home=${tomcat.dir}"/>
+	        <arg line="stop"/>
+	        </java>
+	    </target>
+	   
+	<!-- Restarting tomcat server -->
+	    <target name="tomcat-restart" depends="tomcat-stop, tomcat-start" />
+	    <!-- A shortcut for building and deploying directly -->
+	    <target name="build-deploy" depends="build, deploy" description="Builds and Deploys the ${app}.war file to ${tomcat.dir}"/>
+</project>
+ 

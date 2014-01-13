@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Design>
+<table>
+	<width>700</width>
+	<cellSpacing>0</cellSpacing>
+	<cellPadding>0</cellPadding>
+	<backgroundColor></backgroundColor>
+</table>
+
+<firstRow>
+	<padding>22px 40px 0 40px</padding>
+	<border>5px solid #C2D22D</border>
+	<align>left</align>
+	<valign>top</valign>
+	<width>700</width>
+</firstRow>
+
+<nameAndemail>
+	<Font>
+		<color></color>
+		<family></family>
+		<size></size>
+		<weight></weight>
+		<style></style>
+	</Font>
+	<TextAlignment>center</TextAlignment>
+</nameAndemail>
+
+<unsubscribe>
+	<enableOrNot>yes</enableOrNot>
+	<Font>
+		<color>#a1a1a1</color>
+		<family>Lucida Grande</family>
+		<size>12px</size>
+		<weight></weight>
+		<style></style>
+	</Font>
+	<dispalyText>Unsubscribe Instantly</dispalyText>
+	<linkUrl>http://intranet.nzcorp.net/ServicesAndTools/Science/library/Pages/Alerts%20and%20media.aspx</linkUrl>
+	<TextAlignment>center</TextAlignment>
+</unsubscribe>
+
+<poweredBy>
+	<enableOrNot>yes</enableOrNot>
+	<Font>
+		<color>#333333</color>
+		<family>Lucida Grande</family>
+		<size>12px</size>
+		<weight></weight>
+		<style></style>
+	</Font>
+	<dispalyText>MarketScape A/S</dispalyText>
+	<linkUrl>http://www.marketscape.net</linkUrl>
+	<TextAlignment>center</TextAlignment>
+</poweredBy>
+</Design>

@@ -1,0 +1,1009 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	text-align: center;	
+	align: center;
+	}
+#content{
+	text-align: left;
+	width: 700px;
+	margin: 0 auto;
+}
+a:link{
+	color: rgb(15,92,182);
+    font-family: Arial;
+	font-size: 9pt;
+}
+a:visited{
+  	color: purple;
+  	font-family: Arial;
+  	font-size: 9pt;
+}
+a:hover{
+	font-family: Arial;
+	font-size: 9pt;
+	color: #B7152A; ;
+}
+a:active{
+	color: rgb(15,92,182);
+	font-family: Arial;
+	font-size: 9pt;
+}
+/********* CSS for login module ************/
+.hyperlinkStyle a:link{
+	font-family: Arial;
+	font-size: 9pt;
+	color: rgb(15,92,182);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.hyperlinkStyle a:active{
+	font-family: Arial;
+	font-size: 9pt;
+	color: rgb(15,92,182);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.disablehyperlinkStyle a:link{
+	font-family: Arial;
+	font-size: 9pt;
+	color: rgb(128,128,128);
+	cursor: default;
+	text-decoration: underline;
+}
+
+.disablehyperlinkStyle a:active{
+	font-family: Arial;
+	font-size: 9pt;
+	color: rgb(128,128,128);
+	cursor: default;
+	text-decoration: underline;
+}
+
+.LoginMainLabel{
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.loginButton{
+	cursor: hand;
+	cursor: pointer;
+	width: 70px;
+}
+.loginbasePanel{
+	height: 100%;
+	width: 100%;
+	background-color: rgb(238,238,238);	
+}
+.containerPanel{
+	position: relative;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.errorLabels{
+	font-size: 8pt;
+	font-family: Tahoma;
+	color: red;
+}
+.LoginLabels{
+	font-size: 9pt;
+	font-family: Verdana;
+	color: rgb(102,102,102);
+}
+.boldLabel{
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+.ThirdLoginTitle{
+	font-size: 10px;
+	font-family: Verdana;
+	color: rgb(27,87,144);
+}
+.dockpanelLogin{
+	width: 440px;
+	height: 329px;
+	vertical-align: middle;
+	position: relative;
+	background-image: url("images/loginbox.gif");
+	background-repeat: no-repeat;
+}
+.registration{
+	width: 355px;
+	height: 620px;
+	vertical-align: middle;
+	background-image: url("images/subscriptionbox.gif");
+	background-repeat: no-repeat;
+	position: relative;
+}
+.forgotpwd{
+	width: 355px;
+	height: 215px;
+	vertical-align: middle;
+	background-image: url("images/forgotpwdbox.gif");
+	background-repeat: no-repeat;
+	position: relative;
+}
+.gwt-DecoratorPanel .middleCenter {
+   height: 100%;
+   width: 100%;
+ }
+.registerButtonPanel{
+	position: relative;
+	left: 25px;
+}
+/******** CSS for newscenter module *********/
+.NChyperlinkStyle{
+	font-family: Arial;
+	font-size: 8pt;
+	color: rgb(15,92,182);
+	padding-right: 5px;
+}
+.gwt-DisclosurePanel{
+	width: 100%;
+	background-color: rgb(237,237,237);
+}
+.gwt-DisclosurePanel .header{
+	text-decoration: none;
+  	color: black;
+  	cursor: pointer;
+  	cursor: hand;
+}
+.gwt-DisclosurePanel .content{
+ 	width: 100%;
+ 	background-color: rgb(237,237,237);
+}
+.gwt-DecoratorPanel{
+   	background-color: white;
+   	width: 100%;
+   	height: 100%;
+}
+/* .gwt-Button{
+	border: medium outset rgb(224,236,255);
+	font-family: sans-serif;
+	font-size: 8pt;
+	width: 70px;
+	height: 30px;
+}
+.gwt-Button:hover {
+ border-color: rgb(107,161,189) rgb(107,161,189) rgb(107,161,189) rgb(107,161,189);
+}*/
+.welcomlabelNCMain{
+	color: black;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.snippetSpecialLabel{
+	font-family: Arial;
+	font-size: 9pt;
+	color: rgb(51,51,51);
+	cursor: hand;
+	cursor: pointer;
+	text-align: left;
+	margin-left: 3px;
+}
+.specialLabelHover{
+	font-family: Arial;
+	font-size: 9pt;
+	color: rgb(112,112,112);
+	cursor: hand;
+	cursor: pointer;
+	background-color: rgb(230,230,230);
+	text-align: left;
+	margin-left: 3px;
+}
+.snippetTitle{
+	background-image: url("images/snippetRect.gif");
+	background-repeat: no-repeat;
+	background-color: rgb(238,238,238);
+	padding-left: 5px;
+}
+.snippetCategoryNameLabel{
+	font-family: Tahoma;
+	font-size: 8pt;
+	text-align: left;	
+}
+.labelStyle{
+	font-family: Arial;
+	font-size: 7pt;
+	color: rgb(51,51,51);
+	cursor: hand;
+	cursor: pointer;
+	margin-left: 3px;
+}
+.showAllLabelStyle{
+	font-family: Arial;
+	font-size: 7pt;
+	color: rgb(0,102,202);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.showAllHover{
+	font-family: Arial;
+	font-size: 7pt;
+	color: rgb(146,193,240);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.imageStyle{
+	cursor: hand;
+	cursor: pointer
+}
+.imageHover{
+	background: transparent;
+}
+.CategoryTitleLabel{
+	font-family: Arial;
+	font-size: 12pt;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 3px;
+}
+.backLabel{
+	font-family: Arial;
+	font-size: 8pt;
+	color: rgb(0,102,202);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	margin-right: 3px;
+}
+.goBackLabel{	
+	font-family: Arial;
+	font-size: 7pt;
+	color: rgb(0,102,202);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	text-indent: 3px;
+}
+.lblUrl:hover{
+	color: rgb(0,102,202);
+}
+.lblUrlHover{
+	color: rgb(0,128,0);
+	text-align: left;
+}
+.newslink:hover{
+	color: rgb(0,128,0);
+	text-decoration: underline;
+}
+.lblAbstract{
+	font-family: Arial;
+	font-size: 9pt;
+	color: black;
+	text-align: left;
+}
+.lblRelatedTag{
+	font-family: Arial;
+	font-size: 8pt;
+	color: rgb(0,102,202);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.lblRelatedTagHover{
+	font-family: Arial;
+	font-size: 8pt;
+	color: rgb(0,128,0);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.newsItemGeneralLbl{
+	font-family: Arial;
+	font-size: 8pt;
+	color: rgb(110,110,110);
+	padding-right: 5px;
+	padding-left: 3px;
+}
+.imageBorder{
+	border: 1px solid rgb(196,196,196);
+	margin-left: 5px;
+}
+.newsimage{
+	margin: 5px 5px 5px 5px;
+}
+.fetchingLbl{
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.newsitemview{
+	margin-top: 5px;
+	width: 100%;
+}
+
+.tag{
+	vertical-align: bottom;
+}
+.NCMainBasePanel{
+	background-color: white;
+	border: thin solid rgb(222,222,222);
+}
+.tagDisclosureHeader{
+	background-image: url("images/black_bckGradient.JPG");
+	background-repeat: repeat-x;
+}
+.headerImages{
+	margin-bottom: 5px;
+	height: 32px;
+	width: 25px;
+	border-width: 0px;
+}
+.headerLabels{
+	margin-top: 7px;
+	margin-left: 5px;
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: white;
+}
+.newsPanel{
+	background-color: white;
+}
+.filterLabel{
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	font-family: Arial;
+	font-size: 8pt;
+	color: rgb(110,110,110);
+}
+.checkboxImage{
+	cursor: hand;
+	cursor: pointer;
+}
+.oldlink{
+	font-family: Arial;
+	font-size: 7pt;
+	color: rgb(51,51,51);
+	cursor: hand;
+	cursor: pointer;
+	text-indent: 3px;
+	margin-right: 2px;
+	padding: 3px 5px 3px 5px; 
+}
+.newlink{
+	font-family: Arial;
+	font-size: 7pt;
+	color: rgb(51,51,51);
+	cursor: hand;
+	cursor: pointer;
+	text-indent: 3px;
+	margin-right: 3px;
+	padding: 3px 5px 3px 5px; 
+}
+.snippetViewPanel{
+	margin-left: 5px;
+}
+.categoryextrapanel{
+	background-image: url("images/categoryviewseparator.gif");
+	background-repeat: repeat-x;
+	width: 98%;
+}
+.clearAllLabelStyle{
+	font-family: Arial;
+	font-size: 7pt;
+	color: rgb(0,102,202);
+	cursor: hand;
+	cursor: pointer;
+	margin-right: 15px;
+	text-decoration: underline;
+}
+.changeCriteriaLabelStyle{
+	font-family: Arial;
+	font-size: 7pt;
+	color: rgb(0,102,202);
+	cursor: hand;
+	cursor: pointer;
+	margin-right: 80px;
+	float : right;
+	text-decoration: underline;
+	margin-top: -12px;
+	text-transform: uppercase;
+	} 
+
+.clearAllHover{
+	font-family: Arial;
+	font-size: 7pt;
+	color: rgb(146,193,240);
+	cursor: hand;
+	cursor: pointer;
+	margin-right: 15px;
+	text-decoration: underline;
+}
+.subscribeLabel{
+	font-family: Arial;
+	font-size: 8pt;
+	color: rgb(0,102,202);
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: underline;
+	margin-right: 3px;
+}
+.popupLabel{
+	font-family: Arial;
+	font-size: 8pt;
+}
+.newsletterPopup{
+	border: medium solid rgb(61,61,61);
+	background-color: white;
+}
+.pagingPanel{
+	background-color: white;
+}
+.pageNoLabel{
+	font-family: Arial;
+	font-size: 8pt;
+	color: rgb(51,51,51);
+	text-align: center;
+	border: 1px solid rgb(196,196,196);
+	cursor: hand;
+	cursor: pointer;
+	padding: 3px 5px 3px 5px; 
+}
+.selectedPageNoLabel{
+	background-color: black;
+	color: white;
+}
+/******* CSS for common module *********/
+.headerBar{
+	width: 100%;
+}
+.hpanelForIMages{
+	background:white;
+	width: 100%;
+}
+.LonzaImage1024{
+	position:relative;
+	top : 5mm;
+	left: 25px;
+	text-align: right;
+}
+.LonzaImage1440{
+	position:relative;
+	top : 5mm;
+	left: 25px;
+	text-align: right;
+}
+.LonzaImage1280{
+	position:relative;
+	top : 5mm;
+	left: 25px;
+	text-align: right;
+}
+.mciImage1024{
+	position: relative;
+	left : 180px;
+	top : 5mm;
+	cursor: hand;
+	cursor: pointer;
+}
+.mciImage1440{
+	position: relative;
+	left : 370px;
+	top : 5mm;
+	cursor: hand;
+	cursor: pointer;
+}
+.mciImage1280{
+	position: relative;
+	left : 300px;
+	top : 5mm;
+	cursor: hand;
+	cursor: pointer;
+}
+.welcomeLabel{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	text-indent: 5px;
+	color: white;
+}
+.lowerHeaderComponent{
+	font-family: Verdana;
+	font-size: 8pt;
+	text-align: right;
+}
+/******** CSS for admin module **********/
+.basePanel{
+	height: 100%;
+	width: 100%;
+}
+.labelHeader{
+	color: #1B5891;
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	left: 7px;
+	top: 9px;
+}
+.labelnewscenter{
+	color: red;
+	text-decoration: underline;
+	position: relative;
+	font-family: Verdana;
+	font-size: 12px;
+	cursor: hand;
+	cursor: pointer;
+}
+.logoutlabel{
+	color: red;
+	text-decoration: underline;
+	position: relative;
+	font-family: Verdana;
+	font-size: 12px;
+	cursor: hand;
+	cursor: pointer;
+}
+.labelhorizontal{
+	width: 100%;
+	positon: relative;
+}
+.hover{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: red;
+	cursor: hand;
+	cursor: pointer;
+}
+.labelAdmin{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: black;
+}
+.buttonOkAdmin{
+	font-family: Verdana;
+	font-weight:9px;
+	width: 120px;
+	height: 35px;
+	background-color: rgb(232,238,250);
+	border-color: rgb(195,217,255);
+}
+.extendButton{
+	font-family: Verdana;
+	font-weight:9px;
+	width: 150px;
+	height: 35px;
+	background-color: rgb(232,238,250);
+	border-color: rgb(195,217,255);
+}
+.decoratorlabelNewUserApproval{
+	position: relative;
+	width: 100%;
+	height: 25px;
+	background-color: rgb(232,238,250);
+}
+.labelNewUser{
+	position: relative;
+	left:30px;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 18px;
+}
+.labelTitle{
+	font-family: Verdana;
+	font-weight:bold;
+	font-size: 10pt;
+	text-align: center;
+	color : rgb(27,87,144);
+}
+
+.labelLeftTitle{
+	font-family: Verdana;
+	font-weight:bold;
+	font-size: 10pt;
+	color : rgb(27,87,144);
+}
+.GridTable{
+ 	font-family: sans-serif;
+ 	font-size: 80%;
+}
+.GridHeader{
+    font-size: 80%;
+    font-style:normal;
+    font-weight: bold;
+    font-family: sans-serif;
+	background-color: #DCDCDC;
+	color: #286CBF;
+	text-align: left;
+}
+.GridHover{
+    color:blue;
+    background-color: rgb(254,246,208);
+}
+.hpanelAdmin{
+	width: 100%;
+}
+.flexManageNewsTags{
+	position: relative;
+	top:10px;
+	left: 20px;
+}
+.textboxNewsItems{
+	width: 300px;
+	height: 20px;
+	margin-top: 2px;
+}
+.textAreaNewsItems{
+	width: 700px;
+	height: 70px;
+	margin-top: 2px;
+}
+.scrollerforDecorator{
+	height: 500px;
+	width: 850px;
+}
+.labelFlexEditNewsItems{
+	font-family: Verdana;
+	font-weight:bold;
+	font-size: 10pt;
+}
+.hpanelbuttonAndVpanel{
+	width: 100%;
+	height: 50px;
+}
+.hpanellink{
+	position:relative;
+	left: 95%;
+}
+.textboxRegistration{
+	width: 230px;
+	height: 20px;
+}
+.gwt-FileUpload . Button{
+	height: 30ox;
+	width: 60px;
+}
+.gwt-Button{
+	position: relative;
+	left: 20%;
+	height: 25 px;
+	width: 60px;
+	font-size: 80%;
+}
+.messageLabels{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #B7152A;
+	font-weight: bold;
+}
+.vpanelManageTags{
+	height: 20%;
+	width: 100%;
+}
+.decoratorTab{
+	width:100%;
+}
+.labelSelection{
+	color: rgb(40,108,191);
+	font-family: Verdana;
+	font-size:11pt;
+	font-weight: bold;
+}
+.taglistboxNewsItems{
+	width: 300px;
+	height: 100%;
+	margin-right: 7px;
+	margin-top: 2px;
+}
+.buttonAddSub{
+	margin-right: 7px;
+}
+.ThirdLoginTitle{
+	font-size: 10px;
+	font-family: Verdana;
+	color: rgb(27,87,144);
+}
+.lblimageMsg{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+}
+.trialaccountpanel{
+	width: 496px;
+	height: 396px;
+	-vertical-align: middle;
+	position: relative;
+	background-image: url("images/trial/white_box.png");
+	background-repeat: no-repeat;
+}
+.clickable{
+	cursor: hand;
+	cursor: pointer;
+}
+.pagingenable{
+	cursor: hand;
+	cursor: pointer;
+	color: black;
+	text-decoration: underline;
+}
+.pagingdisable{
+	text-decoration: none;
+	color:#808080;
+}
+.paginglbl{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.ImageDown-HeaderStyle {
+	vertical-align: bottom;
+}
+.imgDownColumn{
+ cursor:pointer;
+ }
+.flexPopupBorder{
+ 	border-bottom-style: solid;
+ 	border-bottom-width: 1px;
+ 	border-bottom-color: #aeacac;
+ 	border-right-style:solid;
+ 	border-right-width:1px;
+ 	border-right-color:#aeacac;
+ 	border-left-style:solid;
+ 	border-left-width: 1px;
+ 	border-left-color: #bfbbbb;
+ 	border-top-style:solid; 	
+ 	border-top-width: 1px;
+ 	border-top-color: #bfbbbb; 	
+ 	background-color: white;
+ }
+.flexPopupRowNormal{
+ 	cursor: pointer;
+ 	font-family: arial, sans-serif;
+	font-weight: normal;
+ 	font-size: 12px;
+ 	background-color: white;
+ }
+ 
+  .flexPopupRowHover{
+ 	cursor: pointer;
+ 	font-family: arial, sans-serif;
+	font-weight: normal;
+ 	font-size: 12px;
+ 	background-color: rgb(254,246,208);
+ }
+.SimpleFlex-Heading-Cell-OnHover {
+	border-width: 0px 1px 0px 0px;
+	border-style: solid;
+	border-color: #9AA7AA;
+	padding: 5px 5px 5px 0px;
+	border-color: white;
+	background-image:url("images/bluebg.gif");	
+	font-size: 9pt;		
+}
+.SimpleFlex-Heading-Cell-Filter {
+	border-width: 0px 1px 0px 0px;
+	border-style: solid;
+	border-color: yellow;
+	padding: 5px 5px 5px 0px;
+	-background-color:#A9D4D6;
+	background-color:#fae196;
+	font-size: 2pt;	
+}
+.popupFilterByValue{	
+	border-width: 2px 2px 2px 2px;
+	border-style: solid;
+	-border-color: #A9D4D6;
+	border-color:#fae196;
+	background-color:white;
+}
+.imageSearchStyle{
+	cursor: hand;
+	cursor: pointer;
+	box-shadow: 1px 1px 5px #999;
+}
+.imageSearchCancelStyle{
+	cursor: hand;
+	cursor: pointer;
+	box-shadow: 1px 1px 5px #999;
+}
+.showhistoryflex{
+	background-color: #92c1f0;
+}
+/****************CSS For End User Wizard*****************/
+
+/*.basePanel{
+	width:80%;
+	height:auto;
+	font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+	margin-top:5em;
+	color: #333;
+	text-align: left;
+	border: 1px solid #5b5b5b; 
+	padding: 2em;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+.headerPanel{
+	width:800px;
+	height:auto;
+	font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+	font-size:100px;
+	color: #333;
+	text-align: left;
+	border-top: solid 1px #5b5b5b;
+}
+.headerPageText{
+	font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+	font-size:20px;
+	color: #333;
+	margin-top: 0.5em;
+}
+.suggestionText{
+	font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+	font-size:12px;
+	color: #808080;
+	text-align: left;	
+}	
+table {
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	text-align: left;
+	
+}
+tr td {
+	width: auto;
+	height: auto;
+	text-align: left;
+}
+.headerTextPanel{
+	width:600px;
+	height:auto;
+	font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+	font-size:100px;
+	color: #333;
+	text-align: left;
+	border-bottom: solid 1px #5b5b5b;
+}
+.manChekPanel{
+	width:30%;
+	height:auto;
+	font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+	font-size:100px;
+	color: #333;
+	text-align: left;
+	margin: 0.1em;
+}
+.mancheckBox{
+	font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+	font-size:12px;
+	color: #808080;
+	text-align: left;
+	width:10px;
+	margin: 0.5em 0em 2em 2em;
+}
+.loginButton{
+	font-weight:bold;
+	cursor: hand;
+	cursor: pointer;
+	width: 70px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	border-color:#92C1F0;
+	border-width:1;
+	margin: 1em;
+}
+.flexuserGrid{
+	background-color: #FFF0F5;
+}
+.buttonPanel{
+	position: relative;
+	left:100px;
+	right:90px;
+}
+.listPanel{
+	width:80%;
+	height:auto;
+	position: :relative;
+	left:100px;
+	margin-top:5em;
+	border: 1px solid #5b5b5b; 
+}
+.headerText{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif"; 
+	font-color:#666;
+	font-size:25px;
+	font: bold;
+	text-align: left;		
+}
+.groupSelection{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif"; 
+	font-color:#666;
+	font-size:15px;
+	font: bold;
+	text-align: left;	
+	background: blue;
+}
+.vpGroup{
+	background-color: #EBECE4;
+	width:100%;
+	height:99%;
+	border-right: 2px solid  #808080;
+	border-left:2px solid;
+}
+.groupHeaderText{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif"; 
+	font-color:#666;
+	font-size:20px;
+	font: bold;
+	text-align: left;	
+	margin:20px 0 0;
+}
+.checkbox{
+	display: block;
+	float: left;
+	clear: left;
+}
+.label{
+	font-weight: bold;
+	font-size: 15px;
+}
+.input{
+	webkit-appearance: textfield;
+	padding: 5px;
+	background-color:#fff;
+	border: 2px inset;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	cursor: auto;
+	border:#00ff00 2px solid;
+}
+.allHeaderPanel{
+	width:700px;
+	height:auto;
+	font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+	font-size:100px;
+	color: #333;
+	text-align: center;
+	border-top: solid 1px #5b5b5b;
+	border-bottom: solid 1px #5b5b5b; 
+}
+.allHeaderText{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif"; 
+	font-color:#666;
+	font-size:27px;
+	font: bold;
+	text-align: center;
+	margin-top: 0.5em;	
+}
+.allSuggestionText{
+	font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+	font-size:15px;
+	color: #808080;
+	text-align: left;
+	margin-top: 1em;
+	
+}
+.alertPanel{
+	width:70%;
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif"; 
+}
+.alertList{
+	text-align: left;
+	width:70%;
+	font: bold;
+	font-color:#666;
+} */
+

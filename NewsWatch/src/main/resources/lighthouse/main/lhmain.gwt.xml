@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.2.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.2.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to="com.lighthouse.main.lhmain">
+
+	<source path="client" />
+
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name='com.google.gwt.user.theme.standard.StandardResources' />
+	
+	<inherits name='com.lighthouse.login.user.lhuser' />
+	<inherits name='com.newscenter.NewsCenter' />
+	<inherits name='com.lighthouse.newsletter.newsletter' />
+	<inherits name='com.lighthouse.search.search' />
+	<inherits name='com.lighthouse.statistics.statistics' />
+	<inherits name='com.lighthouse.report.report' />
+	<inherits name="com.google.gwt.http.HTTP" />
+	<inherits name='com.appUtils.appUtils' />
+	<inherits name='com.lighthouse.main.newsitem.newItem'/>
+	
+	<entry-point class='com.lighthouse.main.client.LhMain' />
+
+     <servlet path='/lhNewsProviderService' class='com.lighthouse.main.server.LhNewsProviderServiceImpl' />
+</module>

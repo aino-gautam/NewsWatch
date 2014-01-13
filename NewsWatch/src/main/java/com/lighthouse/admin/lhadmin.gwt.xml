@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.2.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.2.0/distro-source/core/src/gwt-module.dtd">
+<module>
+	<inherits name="com.google.gwt.user.User" />
+	<inherits name="com.admin.admin" />
+	<inherits name="com.lighthouse.report.report" />
+	<inherits name='com.lighthouse.group.group' />
+	<inherits name='com.lighthouse.newsletter.newsletter' />
+	<!-- <inherits name='com.lighthouse.feed.feed' /> -->
+	<inherits name="com.lighthouse.common.lhcommon" />
+	<inherits name="com.google.gwt.xml.XML" />
+	<source path="client" />
+	<entry-point class="com.lighthouse.admin.client.LHadmin" />
+</module>

@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<!-- Servlets -->
+	<!-- <context-param> <param-name>smtpusername</param-name> <param-value>fmaster</param-value> 
+		</context-param> <context-param> <param-name>smtppassword</param-name> <param-value>fmaster</param-value> 
+		</context-param> <context-param> <param-name>smtphost</param-name> <param-value>localhost</param-value> 
+		</context-param> <context-param> <param-name>smtpport</param-name> <param-value>25</param-value> 
+		</context-param> <context-param> <param-name>tomcaturl</param-name> <param-value>http://10.10.10.106/NewsCenter/</param-value> 
+		</context-param> <context-param> <param-name>deploymentname</param-name> 
+		<param-value>NewsCenter</param-value> </context-param> <servlet> <servlet-name>login</servlet-name> 
+		<servlet-class>com.login.server.UserInformationServiceImpl</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>login</servlet-name> <url-pattern>/com.login.login/UserInformation</url-pattern> 
+		</servlet-mapping> <servlet> <servlet-name>mail</servlet-name> <servlet-class>com.login.server.MailServiceImpl</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>mail</servlet-name> <url-pattern>/com.login.login/MailForPassword</url-pattern> 
+		</servlet-mapping> <servlet> <servlet-name>fileUploadServlet</servlet-name> 
+		<servlet-class>com.admin.server.db.FileUploadServlet</servlet-class> </servlet> 
+		<servlet-mapping> <servlet-name>fileUploadServlet</servlet-name> <url-pattern>/com.login.login/servlet/GetUploadedFileTags</url-pattern> 
+		</servlet-mapping> <servlet> <servlet-name>accountDurationServlet</servlet-name> 
+		<servlet-class>com.admin.server.AccountDurationServlet</servlet-class> <load-on-startup>2</load-on-startup> 
+		</servlet> <servlet-mapping> <servlet-name>accountDurationServlet</servlet-name> 
+		<url-pattern>/com.login.login/servlet/AccountDurationServlet</url-pattern> 
+		</servlet-mapping> <servlet> <servlet-name>newsletterServlet</servlet-name> 
+		<servlet-class>com.newscenter.server.NewsletterServlet</servlet-class> -->
+	<!-- <load-on-startup>3</load-on-startup> -->
+	<!-- </servlet> <servlet-mapping> <servlet-name>newsletterServlet</servlet-name> 
+		<url-pattern>/com.login.login/servlet/NewsletterServlet</url-pattern> </servlet-mapping> 
+		<servlet> <servlet-name>newsProviderServiceImpl</servlet-name> <servlet-class>com.newscenter.server.newsdb.NewsProviderServiceImpl</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>newsProviderServiceImpl</servlet-name> 
+		<url-pattern>/com.login.login/NewsSelection</url-pattern> </servlet-mapping> 
+		<servlet> <servlet-name>commonInformationServiceImpl</servlet-name> <servlet-class>com.common.server.CommonInformationServiceImpl</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>commonInformationServiceImpl</servlet-name> 
+		<url-pattern>/com.login.login/common</url-pattern> </servlet-mapping> <servlet> 
+		<servlet-name>imageUploadService</servlet-name> <servlet-class>com.admin.server.db.ImageUploadService</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>imageUploadService</servlet-name> 
+		<url-pattern>/com.login.login/servlet/GetImageUploadService</url-pattern> 
+		</servlet-mapping> <servlet> <servlet-name>userInformationforMail</servlet-name> 
+		<servlet-class>com.admin.server.UserInformationforMail</servlet-class> </servlet> 
+		<servlet-mapping> <servlet-name>userInformationforMail</servlet-name> <url-pattern>/com.login.login/administrator</url-pattern> 
+		</servlet-mapping> <servlet> <servlet-name>editImageService</servlet-name> 
+		<servlet-class>com.admin.server.db.EditImageService</servlet-class> </servlet> 
+		<servlet-mapping> <servlet-name>editImageService</servlet-name> <url-pattern>/com.login.login/servlet/GetEditImageUploadService</url-pattern> 
+		</servlet-mapping> <servlet> <servlet-name>itemProviderServiceImpl</servlet-name> 
+		<servlet-class>com.newscenter.server.categorydb.ItemProviderServiceImpl</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>itemProviderServiceImpl</servlet-name> 
+		<url-pattern>/com.login.login/TagSelection</url-pattern> </servlet-mapping> 
+		<servlet> <servlet-name>adminInformationServiceImpl</servlet-name> <servlet-class>com.admin.server.AdminInformationServiceImpl</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>adminInformationServiceImpl</servlet-name> 
+		<url-pattern>/com.login.login/admin</url-pattern> </servlet-mapping> <servlet> 
+		<servlet-name>serviceProviderImpl</servlet-name> <servlet-class>com.lonzaNewscenter.server.ServiceProviderImpl</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>serviceProviderImpl</servlet-name> 
+		<url-pattern>/com.login.login/lonzaNewsCenter</url-pattern> </servlet-mapping> 
+		<servlet> <servlet-name>trialServiceImpl</servlet-name> <servlet-class>com.trial.server.TrialInformationServiceImpl</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>trialServiceImpl</servlet-name> 
+		<url-pattern>/com.login.login/trialinfoservice</url-pattern> </servlet-mapping> 
+		<servlet> <servlet-name>itemViewServlet</servlet-name> <servlet-class>com.newscenter.server.ItemViewServlet</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>itemViewServlet</servlet-name> 
+		<url-pattern>/com.login.login/itemView</url-pattern> </servlet-mapping> <servlet> 
+		<servlet-name>emailItemViewServlet</servlet-name> <servlet-class>com.newscenter.server.EmailItemViewServlet</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>emailItemViewServlet</servlet-name> 
+		<url-pattern>/com.login.login/emailitemView</url-pattern> </servlet-mapping> 
+		<servlet> <servlet-name>RSSServlet</servlet-name> <servlet-class>com.newscenter.server.RSSServlet</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>RSSServlet</servlet-name> <url-pattern>/rss</url-pattern> 
+		</servlet-mapping> <servlet> <servlet-name>RSSFeedServlet</servlet-name> 
+		<servlet-class>com.newscenter.server.RSSFeedServlet</servlet-class> </servlet> 
+		<servlet-mapping> <servlet-name>RSSFeedServlet</servlet-name> <url-pattern>/rssfeed</url-pattern> 
+		</servlet-mapping> -->
+
+	<!-- <servlet> <display-name>AllocateResources</display-name> <servlet-name>AllocateResources</servlet-name> 
+		<servlet-class>com.login.server.db.AllocateResources</servlet-class> <init-param> 
+		<param-name>ConnectionUrl</param-name> <param-value>jdbc:mysql://10.10.10.116:3306/lighthouse</param-value> 
+		</init-param> <init-param> <param-name>driverClass</param-name> <param-value>com.mysql.jdbc.Driver</param-value> 
+		</init-param> <init-param> <param-name>UserName</param-name> <param-value>root</param-value> 
+		</init-param> <init-param> <param-name>Password</param-name> <param-value>mysql</param-value> 
+		</init-param> <load-on-startup>1</load-on-startup> </servlet> <servlet-mapping> 
+		<servlet-name>AllocateResources</servlet-name> <url-pattern>/com.login.login/GetAllocateResources</url-pattern> 
+		</servlet-mapping> -->
+
+
+
+
+
+
+	<!-- The following are the changes made to run the new module -->
+	<!-- Servlets -->
+
+ 	<!-- For search indexing --> 
+	<context-param>
+		<param-name>DirPath</param-name>
+		<param-value>/lighthouse/searchindexes/</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>tagLimitForPrimaryCategory</param-name>
+		<param-value>6</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>smtpusername</param-name>
+		<param-value>fmaster</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>smtppassword</param-name>
+		<param-value>fmaster</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>smtphost</param-name>
+		<param-value>localhost</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>smtpport</param-name>
+		<param-value>25</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>tomcaturl</param-name>
+	  	<param-value>http://122.169.111.248:7080/Lighthouse/</param-value>  
+	<!--	  <param-value>http://127.0.0.1:8888/</param-value>   -->
+	</context-param>
+
+	<context-param>
+		<param-name>deploymentname</param-name>
+		<param-value>Lighthouse</param-value>
+	</context-param>
+		
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.login.server.UserInformationServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/com.lighthouse.login.lhlogin/UserInformation
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>mail</servlet-name>
+		<servlet-class>com.login.server.MailServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mail</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/MailForPassword</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>fileUploadServlet</servlet-name>
+		<servlet-class>com.admin.server.db.FileUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fileUploadServlet</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/servlet/GetUploadedFileTags
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>accountDurationServlet</servlet-name>
+		<servlet-class>com.admin.server.AccountDurationServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>accountDurationServlet</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/servlet/AccountDurationServlet
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>newsletterServlet</servlet-name>
+		<servlet-class>com.newscenter.server.NewsletterServlet</servlet-class>
+		 <load-on-startup>3</load-on-startup> 
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>newsletterServlet</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/servlet/NewsletterServlet
+		</url-pattern>
+	</servlet-mapping>
+	
+		 <servlet>
+		<servlet-name>autoFeedServlet</servlet-name>
+		<servlet-class>com.lighthouse.feed.server.AutoFeedSyncServlet</servlet-class>
+		 <load-on-startup>4</load-on-startup> 
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>autoFeedServlet</servlet-name>
+		<url-pattern>/autoSync</url-pattern>
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>AdminFeedServiceImpl</servlet-name>
+		<servlet-class>com.lighthouse.feed.server.FeedServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminFeedServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/feedservice</url-pattern>
+	</servlet-mapping>
+	<!-- below mapping for feed module servlet  -->
+	<servlet>
+		<servlet-name>FeedServiceImpl</servlet-name>
+		<servlet-class>com.lighthouse.feed.server.FeedServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FeedServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.feed.feed/feedservice</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>feedlhNewsProvider</servlet-name>
+		<servlet-class>com.lighthouse.main.server.LhNewsProviderServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>feedlhNewsProvider</servlet-name>
+		<url-pattern>/com.lighthouse.feed.feed/lhNewsProviderService
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>newsletterStatsServlet</servlet-name>
+		<servlet-class>com.lighthouse.newsletter.server.NewsLetterStatsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>newsletterStatsServlet</servlet-name>
+		<url-pattern>/getImg</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>newsProviderServiceImpl</servlet-name>
+		<servlet-class>com.newscenter.server.newsdb.NewsProviderServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>newsProviderServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/NewsSelection</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>commonInformationServiceImpl</servlet-name>
+		<servlet-class>com.common.server.CommonInformationServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>commonInformationServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/common</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AdminlhcommonInformationServiceImpl</servlet-name>
+		<servlet-class>com.lighthouse.common.server.LHCommonInformationServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminlhcommonInformationServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/lhCommonInformationService</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- call from feed module -->
+	<servlet>
+		<servlet-name>lhcommonInformationServiceImpl</servlet-name>
+		<servlet-class>com.lighthouse.common.server.LHCommonInformationServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhcommonInformationServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.feed.feed/common </url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>lhadmincommonInformationServiceImpl</servlet-name>
+		<servlet-class>com.common.server.CommonInformationServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhadmincommonInformationServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/common</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>appUtilsServiceImpl</servlet-name>
+		<servlet-class>com.appUtils.server.AppUtilsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>appUtilsServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/appUtils</url-pattern>
+	</servlet-mapping>
+	
+<!-- Authorization addition  -->
+	
+	<servlet>
+		<servlet-name>lhLoginAuth</servlet-name>
+		<servlet-class>com.appUtils.server.AppUtilsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhLoginAuth</servlet-name>
+		<url-pattern>/com.lighthouse.login.lhlogin/appUtilService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>lhMainAuth</servlet-name>
+		<servlet-class>com.appUtils.server.AppUtilsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhMainAuth</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/appUtilService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>lhAdminAuth</servlet-name>
+		<servlet-class>com.appUtils.server.AppUtilsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhAdminAuth</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/appUtilService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>feedAuth</servlet-name>
+		<servlet-class>com.appUtils.server.AppUtilsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>feedAuth</servlet-name>
+		<url-pattern>/com.lighthouse.feed.feed/appUtilService</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Authorization addition  -->
+	
+	<servlet>
+		<servlet-name>appUtilsServiceImplForAdminLogOut</servlet-name>
+		<servlet-class>com.appUtils.server.AppUtilsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>appUtilsServiceImplForAdminLogOut</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/appUtils</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>imageUploadService</servlet-name>
+		<servlet-class>com.admin.server.db.ImageUploadService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>imageUploadService</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/servlet/GetImageUploadService
+		</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>saveReportService</servlet-name>
+		<servlet-class>com.lighthouse.admin.server.db.ImageUploadService
+		</servlet-class>
+</servlet>
+	<servlet-mapping>
+		<servlet-name>saveReportService</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/GetImageUploadService</url-pattern>
+	</servlet-mapping>
+	
+	<!-- <servlet>
+		<servlet-name>saveNewsItem</servlet-name>
+		<servlet-class>com.admin.server.db.ImageUploadService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>saveNewsItem</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/saveNewsItem</url-pattern>
+	</servlet-mapping>
+	 -->
+	<servlet>
+		<servlet-name>lhsaveNewsItem</servlet-name>
+		<servlet-class>com.lighthouse.admin.server.db.LHImageUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhsaveNewsItem</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/saveNewsItem</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+	<servlet-name>lheditNewsItem</servlet-name>
+		<servlet-class>com.lighthouse.admin.server.db.LHEditImageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lheditNewsItem</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/editNewsItem</url-pattern>
+	</servlet-mapping>
+	
+	<!--calling from the feesd module  -->
+	<servlet>
+	<servlet-name>FeedLheditNewsItem</servlet-name>
+		<servlet-class>com.lighthouse.admin.server.db.LHEditImageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FeedLheditNewsItem</servlet-name>
+		<url-pattern>/com.lighthouse.feed.feed/editNewsItem</url-pattern>
+	</servlet-mapping> 
+	
+	
+	
+<!-- 	
+	<servlet>
+	<servlet-name>editNewsItem</servlet-name>
+		<servlet-class>com.admin.server.db.EditImageService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editNewsItem</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/editNewsItem</url-pattern>
+	</servlet-mapping> -->
+
+	<servlet>
+		<servlet-name>userInformationforMail</servlet-name>
+		<servlet-class>com.admin.server.UserInformationforMail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userInformationforMail</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/administrator</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>editImageService</servlet-name>
+		<servlet-class>com.admin.server.db.EditImageService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editImageService</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/servlet/GetEditImageUploadService
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>editReportImageService</servlet-name>
+		<servlet-class>com.lighthouse.admin.server.db.EditImageService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editReportImageService</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/GetEditImageUploadService
+		</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>itemProviderServiceImpl</servlet-name>
+		<servlet-class>com.newscenter.server.categorydb.ItemProviderServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>itemProviderServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/TagSelection</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>lhadminInformationServiceImpl</servlet-name>
+		<servlet-class>com.admin.server.AdminInformationServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhadminInformationServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/admin</url-pattern>
+	</servlet-mapping>
+
+      <!--call from feed module  -->
+     <servlet>
+		<servlet-name>FeedLhadminInformationServiceImpl</servlet-name>
+		<servlet-class>com.admin.server.AdminInformationServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FeedLhadminInformationServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.feed.feed/lhAdminInformationService</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>adminInformationServiceImpl</servlet-name>
+		<servlet-class>com.admin.server.AdminInformationServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminInformationServiceImpl</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>serviceProviderImpl</servlet-name>
+		<servlet-class>com.lonzaNewscenter.server.ServiceProviderImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serviceProviderImpl</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/lonzaNewsCenter</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>trialServiceImpl</servlet-name>
+		<servlet-class>com.trial.server.TrialInformationServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>trialServiceImpl</servlet-name>
+		<url-pattern>/com.trial.trial/trialinfoservice</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>itemViewServlet</servlet-name>
+		<servlet-class>com.newscenter.server.ItemViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>itemViewServlet</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/itemView</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>emailItemViewServlet</servlet-name>
+		<servlet-class>com.newscenter.server.EmailItemViewServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>emailItemViewServlet</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/emailitemView</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>emailItemViewServletNewspage</servlet-name>
+		<servlet-class>com.newscenter.server.EmailItemViewServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>emailItemViewServletNewspage</servlet-name>
+		<url-pattern>/com.lighthouse.newspage.newspage/emailitemView</url-pattern>
+	</servlet-mapping>
+	
+	  <!-- Mapping for newsLetter: -->
+	<servlet>
+		<servlet-name>emailItemViewServletNewsLetter</servlet-name>
+		<servlet-class>com.newscenter.server.EmailItemViewServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>emailItemViewServletNewsLetter</servlet-name>
+		<url-pattern>/com.lighthouse.newsletter.newsletter/emailitemView</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>RSSServlet</servlet-name>
+		<servlet-class>com.newscenter.server.RSSServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RSSServlet</servlet-name>
+		<url-pattern>/rss</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>RSSFeedServlet</servlet-name>
+		<servlet-class>com.newscenter.server.RSSFeedServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RSSFeedServlet</servlet-name>
+		<url-pattern>/rssfeed</url-pattern>
+	</servlet-mapping>
+
+
+
+	<!-- /* For ItemViewServlet*/ -->
+	<servlet>
+		<servlet-name>itemViewServletnewspage</servlet-name>
+		<servlet-class>com.newscenter.server.ItemViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>itemViewServletnewspage</servlet-name>
+		<url-pattern>/com.lighthouse.newspage.newspage/itemView</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>itemViewServletlhmain</servlet-name>
+		<servlet-class>com.newscenter.server.ItemViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>itemViewServletlhmain</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/itemView</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>AlertRssServlet</servlet-name>
+		<servlet-class>com.lighthouse.newsletter.server.AlertRssServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AlertRssServlet</servlet-name>
+		<url-pattern>/alertRss</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReportDeadLinkServlet</servlet-name>
+		<servlet-class>com.lighthouse.main.server.ReportDeadLinkServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReportDeadLinkServlet</servlet-name>
+		<url-pattern>/reportDeadLink</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>accessLockedNews</servlet-name>
+		<servlet-class>com.lighthouse.main.server.AccessLockedNewsItemServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>accessLockedNews</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/accessLockedNewsItem</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>searchtoken</servlet-name>
+		<servlet-class>com.lighthouse.search.server.SearchServiceImpl
+		</servlet-class>
+		<init-param>
+			<param-name>IndexDirPath</param-name>
+			<param-value>/lighthouse/searchindexes/</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>searchtoken</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/searchtoken</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>searchtokenSearch</servlet-name>
+		<servlet-class>com.lighthouse.search.server.SearchServiceImpl
+		</servlet-class>
+		<init-param>
+			<param-name>IndexDirPath</param-name>
+			<param-value>/lighthouse/searchindexes/</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>searchtokenSearch</servlet-name>
+		<url-pattern>/com.lighthouse.search.search/searchtoken</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>searchlhNewsProvider</servlet-name>
+		<servlet-class>com.lighthouse.main.server.LhNewsProviderServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>searchlhNewsProvider</servlet-name>
+		<url-pattern>/com.lighthouse.search.search/lhNewsProviderService
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>lhlogin</servlet-name>
+		<servlet-class>com.lighthouse.login.server.LhLoginServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhlogin</servlet-name>
+		<url-pattern>/com.lighthouse.login.lhlogin/lhlogin</url-pattern>
+	</servlet-mapping>
+   
+    <!-- Generates the silos listed in the database dynamically -->
+    <servlet>
+		<servlet-name>lhLoginMaintainence</servlet-name>
+		<servlet-class>com.lighthouse.login.server.MaintainanceServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhLoginMaintainence</servlet-name>
+		<url-pattern>/maintainence</url-pattern>
+	</servlet-mapping>
+   
+   <!-- Creates the newSilo -->
+   <servlet>
+		<servlet-name>lhLoginNewSilo</servlet-name>
+		<servlet-class>com.lighthouse.login.server.CreateNewSilo
+		</servlet-class>
+		<init-param>
+			<param-name>ConnectionUrl</param-name>
+			<param-value>jdbc:mysql://localhost:3306/lighthouse?noAccessToProcedureBodies=true</param-value>
+			<!-- <param-value>jdbc:mysql://localhost:3306/lighthouse?noAccessToProcedureBodies=true</param-value> -->
+		</init-param>
+		<init-param>
+			<param-name>driverClass</param-name>
+			<param-value>com.mysql.jdbc.Driver</param-value>
+		</init-param>
+		<init-param>
+			<param-name>UserName</param-name>
+			<param-value>root</param-value>
+		</init-param>
+		<init-param>
+			<param-name>Password</param-name>
+			<param-value>mysql</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhLoginNewSilo</servlet-name>
+		<url-pattern>/newSiloCreation</url-pattern>
+	</servlet-mapping>
+   
+   
+     <!-- for main module -->
+	<servlet>
+		<servlet-name>manageGroup</servlet-name>
+		<servlet-class>com.lighthouse.group.server.ManageGroupServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>manageGroup</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/manageGroupService
+		</url-pattern>
+	</servlet-mapping>
+	
+	  <!-- for admin module -->
+	<servlet>
+		<servlet-name>adminmanageGroup</servlet-name>
+		<servlet-class>com.lighthouse.group.server.ManageGroupServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminmanageGroup</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/manageGroupService
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>userNewsletterAlert</servlet-name>
+		<servlet-class>com.lighthouse.newsletter.server.UserNewsletterAlertConfigImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userNewsletterAlert</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/userAlertService
+		</url-pattern>
+	</servlet-mapping>  
+	 <servlet>
+		<servlet-name>userNewsletter</servlet-name>
+		<servlet-class>com.lighthouse.newsletter.server.UserNewsletterAlertConfigImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userNewsletter</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/userAlertService 
+		</url-pattern>
+	</servlet-mapping> 
+
+	<servlet>
+		<servlet-name>lhNewsProvider</servlet-name>
+		<servlet-class>com.lighthouse.main.server.LhNewsProviderServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhNewsProvider</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/lhNewsProviderService
+		</url-pattern>
+	</servlet-mapping>
+	
+	<!-- For newsitemhome -->
+	<servlet>
+		<servlet-name>newsItemHomeServiceImpl</servlet-name>
+		<servlet-class>com.lighthouse.newspage.server.NewsItemHomeServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>newsItemHomeServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.newspage.newspage/newsItemHome
+		</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- For comments -->
+	<servlet>
+		<servlet-name>ItemCommentServiceImpl</servlet-name>
+		<servlet-class>com.lighthouse.comment.server.ItemCommentServiceImpl
+		</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ItemCommentServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.newspage.newspage/comments</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>commentlhNewsProvider</servlet-name>
+		<servlet-class>com.lighthouse.main.server.LhNewsProviderServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>commentlhNewsProvider</servlet-name>
+		<url-pattern>/com.lighthouse.newspage.newspage/lhNewsProviderService
+		</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Search setup Servlets -->
+	<servlet>
+		<servlet-name>indexsetup</servlet-name>
+		<servlet-class>com.lighthouse.search.server.SearchIndexSetupServlet
+		</servlet-class>
+		<init-param>
+			<param-name>IndexDirPath</param-name>
+			<param-value>/lighthouse/searchindexes/</param-value>
+		</init-param>
+		<init-param>
+			<param-name>IndexSetupUsername</param-name>
+			<param-value>mahesh</param-value>
+		</init-param>
+		<init-param>
+			<param-name>IndexSetupPassword</param-name>
+			<param-value>erom</param-value>
+		</init-param>
+	<!-- 	<load-on-startup>4</load-on-startup> -->
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>indexsetup</servlet-name>
+		<url-pattern>/SearchIndexSetup</url-pattern>
+	</servlet-mapping>
+
+	<!--Reports -->
+	<servlet>
+		<servlet-name>reportService</servlet-name>
+		<servlet-class>com.lighthouse.report.server.ReportsServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reportService</servlet-name>
+		<url-pattern>/com.lighthouse.report.report/reportservicetoken
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>reportServiceMain</servlet-name>
+		<servlet-class>com.lighthouse.report.server.ReportsServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reportServiceMain</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/reportservicetoken
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>downloadReport</servlet-name>
+		<servlet-class>com.lighthouse.report.server.ReportsDownloadServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>downloadReport</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/DownloadReport
+		</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>displaysingleReport</servlet-name>
+		<servlet-class>com.lighthouse.report.server.ReportDisplayServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>displaysingleReport</servlet-name>
+		<url-pattern>/DisplayReport
+		</url-pattern>
+	</servlet-mapping>
+
+     <servlet>
+		<servlet-name>lhUserService</servlet-name>
+		<servlet-class>com.lighthouse.login.user.server.LhUserServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhUserService</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/lhuserservice
+		</url-pattern>
+	</servlet-mapping>
+
+
+ <servlet>
+		<servlet-name>lhUserServiceForForgotPassWord</servlet-name>
+		<servlet-class>com.lighthouse.login.user.server.LhUserServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lhUserServiceForForgotPassWord</servlet-name>
+		<url-pattern>/com.lighthouse.login.lhlogin/lhuserservice
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- For statistics -->
+	<servlet>
+		<servlet-name>StatisticsServiceImpl</servlet-name>
+		<servlet-class>com.lighthouse.statistics.server.StatisticsServiceImpl
+		</servlet-class>
+
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StatisticsServiceImpl</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/statisticsService
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- Share story -->
+	<servlet>
+	<servlet-name>sharestoryservlet</servlet-name>
+	<servlet-class>com.lighthouse.newspage.server.ShareStoryServlet
+	</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sharestoryservlet</servlet-name>
+		<url-pattern>/com.lighthouse.newspage.newspage/sharestory
+		</url-pattern>
+	</servlet-mapping>
+
+       <servlet>
+	<servlet-name>sharestoryservletlhmain</servlet-name>
+	<servlet-class>com.lighthouse.newspage.server.ShareStoryServlet
+	</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sharestoryservletlhmain</servlet-name>
+		<url-pattern>/com.lighthouse.main.lhmain/sharestory
+		</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<display-name>AllocateResources</display-name>
+		<servlet-name>AllocateResources</servlet-name>
+		<servlet-class>com.login.server.db.AllocateResources</servlet-class>
+		<init-param>
+			<param-name>ConnectionUrl</param-name>
+			<param-value>jdbc:mysql://localhost:3306/lighthouse?noAccessToProcedureBodies=true</param-value>
+			<!-- <param-value>jdbc:mysql://localhost:3306/lighthouse?noAccessToProcedureBodies=true</param-value> -->
+		</init-param>
+		<init-param>
+			<param-name>driverClass</param-name>
+			<param-value>com.mysql.jdbc.Driver</param-value>
+		</init-param>
+		<init-param>
+			<param-name>UserName</param-name>
+			<param-value>root</param-value>
+		</init-param>
+		<init-param>
+			<param-name>Password</param-name>
+			<param-value>mysql</param-value>
+		</init-param>
+	<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AllocateResources</servlet-name>
+		<url-pattern>/com.login.login/GetAllocateResources</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>editReportService</servlet-name>
+		<servlet-class>com.lighthouse.admin.server.LHAdminInformationServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editReportService</servlet-name>
+		<url-pattern>/com.lighthouse.admin.lhadmin/lhAdminInformationService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>feedService</servlet-name>
+		<servlet-class>com.lighthouse.feed.server.FeedServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>feedService</servlet-name>
+		<url-pattern>/feed</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>sendNewsLetter</servlet-name>
+		<servlet-class>com.lighthouse.newsletter.server.LhNewsletterServlet</servlet-class>
+		<init-param>
+			<param-name>WeeklyNewsletterDay</param-name>
+			<param-value>Thursday</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sendNewsLetter</servlet-name>
+		<url-pattern>/sendNewsLetter</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AccessAlertLockedNewsItemServlet</servlet-name>
+		<servlet-class>com.lighthouse.main.server.AccessAlertLockedNewsItemServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccessAlertLockedNewsItemServlet</servlet-name>
+		<url-pattern>/requestLockedItem</url-pattern>
+	</servlet-mapping>
+	
+	<!-- <servlet>
+		<servlet-name>NewsLetterManager</servlet-name>
+		<servlet-class>com.lighthouse.newsletter.server.NewsLetterManagerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewsLetterManager</servlet-name>
+		<url-pattern>/scheduleNewsLetter</url-pattern>
+	</servlet-mapping> -->
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>lhlogin.html</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>newsletterConfigServiceServlet</servlet-name>
+		<servlet-class>com.lighthouse.newsletter.server.NewsletterConfigImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>newsletterConfigServiceServlet</servlet-name>
+			<url-pattern>/com.lighthouse.admin.lhadmin/newsletterConfigService</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>newsletterConfigServlet</servlet-name>
+		<servlet-class>com.lighthouse.newsletter.server.NewsLetterDesignServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+			<servlet-name>newsletterConfigServlet</servlet-name>
+			<url-pattern>/newsletterConfig</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		   <servlet-name>UploadServlet</servlet-name>
+		   <servlet-class>com.lighthouse.feed.server.FeedItemUploadServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	   <servlet-name>UploadServlet</servlet-name>
+	   <url-pattern>/com.lighthouse.feed.feed/uploadFeed</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		   <servlet-name>UploadRequest</servlet-name>
+		   <servlet-class>com.lighthouse.feed.server.UploadRequestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	   <servlet-name>UploadRequest</servlet-name>
+	   <url-pattern>/com.lighthouse.feed.feed/uploadReq</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
+ 

@@ -1,0 +1,27 @@
+### Eclipse Workspace Patch 1.0
+#P engile
+Index: src/com/ensarm/enwelib/orm/services/entity/EntityVendServiceImpl.java
+===================================================================
+--- src/com/ensarm/enwelib/orm/services/entity/EntityVendServiceImpl.java	(revision 17360)
++++ src/com/ensarm/enwelib/orm/services/entity/EntityVendServiceImpl.java	(working copy)
+@@ -383,7 +383,7 @@
+ 			if (permitted || entity.getType().equals(OrmTypes.EntityAttachment)) {
+ 				EntityVendService evs = getOrmServiceConnector().getEntityVendProvider();
+ 				ClientUser clientUser = (ClientUser) userSession.getAttribute("clientUser");
+-				clientUser.getPrimaryKey();
++				//clientUser.getPrimaryKey();
+ 				populateVersioninformation(entityList, clientUser);
+ 				list = evs.saveEntities(entityList,hsPriorityRestrictions,tabContext);
+ 			}
+Index: src/com/ensarm/enwelib/orm/services/ConvertExcelToEntity.java
+===================================================================
+--- src/com/ensarm/enwelib/orm/services/ConvertExcelToEntity.java	(revision 17444)
++++ src/com/ensarm/enwelib/orm/services/ConvertExcelToEntity.java	(working copy)
+@@ -445,6 +445,7 @@
+ 			
+ 			for(int row=1;row < sheet.getRows();row ++){
+ 				valid= true;
++				
+ 				entity = new Entity();
+ 				entity.setPrimary(new Key());
+ 				entity.setType(entitytype);

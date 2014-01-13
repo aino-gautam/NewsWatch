@@ -1,0 +1,182 @@
+div,td{
+	align: center;
+}
+.logoutlabel{
+	color: red;
+	text-decoration: underline;
+	cursor: hand;
+	cursor:  pointer;
+}
+.vpanelForHorizontalPanels{
+	width: 100%;
+}
+.vpanelContaner{
+	width: 100%;
+}
+.hpanelContainerAdminLogin{
+	width: 100%;
+}
+.logoutLbl{
+	position:relative;
+	direction: rtl;
+	left: 850px;
+	color: red;
+	text-decoration: underline;
+	cursor: hand;
+	cursor: pointer;
+}
+.manageNesCenterLbl{
+	position: relative;
+	direction: rtl;
+	left:820px;
+	color: red;
+	text-decoration: underline;
+	cursor: hand;
+	cursor: pointer;
+}
+.imgLonzaRight{
+	position: relative;
+	top: 10%;
+	left: 300%;
+}
+.hpanelForHTMLContent{
+    width: 100%;
+	height: 100%;
+}
+.hpanelforFrameandHtml{
+	height:100%;
+	width: 100%;
+}
+.hpanelforFrame{
+	position: fixed;
+	top:110px;
+	left:400%;
+	width: 100%;	
+}
+.hpanelforWelcomeLbl{
+	width: 100%;
+	height:35px;
+	background-color: rgb(244,244,244); 
+	border: 1px double rgb(188,188,188);
+}
+.contentStyle{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: justify;
+}
+.contentPanelStyle{
+	border: 1px double rgb(188,188,188);
+}
+.welcomLbl{
+	position: relative;
+	top: 8px;
+	left: 10px;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12pt;
+	color: black;
+}
+.vpanelContainerForLonzaNews{
+	width: 100%;
+}
+.hpanelFrameLonzaNews{
+	position: absolute;
+	left: 50px;
+}
+.hpanelLonzaHeaderLonzaNews{
+	width: 100%;
+}
+.labelLogoutLonzaNews{
+	font-family: Verdana;
+	font-size: 9pt;
+	color: #007888;
+	text-decoration: underline;
+	cursor: hand;
+	cursor: pointer;
+}
+.labelHover{
+	font-family: Verdana;
+	font-size: 9pt;
+	color: red;
+	text-decoration: underline;
+	cursor: hand;
+	cursor: pointer;
+}
+.headerlabel1024{
+	position:relative;
+	left: 600px;
+	text-align: right;
+}
+.headerlabel1440{
+	position:relative;
+	left: 1020px;
+	text-align: right;
+}
+.headerlabel1280{
+	position:relative;
+	left: 820px;
+	text-align: right;
+}
+.hpanelCenter{
+	position: relative;
+	top: 15px ;
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: scroll;
+	float: none;
+	direction: ltr;
+}
+.outerWelcomePanel{
+	padding-left: 5px;
+	padding-right: 5px;
+	position: relative;
+	left:10px;
+	display: block;
+}
+.newsFrame{
+	border: 1px solid rgb(102,102,102);
+}
+.errorLabels{
+	font-size: 11px;
+	color: red;
+}
+.welcomelbl{
+	font-family: Verdana;
+	font-size: 9pt;
+	color: #007888;
+}
+.welcomeusernamelbl{
+	font-family: Verdana;
+	font-size: 9pt;
+	color: #007888;
+}
+.msglbl{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #007888;
+}
+.homelbl1024{
+	position:relative;
+	left: 900px;
+}
+.homelbl1280{
+	position:relative;
+	left: 1180px;
+}
+.homelbl1440{
+	position:relative;
+	left: 1300px;
+}
+.hpanelflex{
+	position: relative;
+	top: 50%;
+}
+.Label{
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: bold;
+}
+.vpanelflexandmsg{
+	padding: 15px 15px 15px 15px;
+}

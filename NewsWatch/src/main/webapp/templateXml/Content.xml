@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Design>
+<headline>
+	<font>
+		<color>#766436</color>
+		<family>Lucida Grande</family>
+		<size>18px</size>
+		<weight></weight>
+		<style></style>
+	</font>
+	<padding></padding>
+</headline>
+
+<newstitle>
+	<font>
+		<color>#00B2CD</color>
+		<family>Lucida Grande</family>
+		<size>18pt</size>
+		<weight></weight>
+		<style></style>
+	</font>
+	<padding>3px</padding>
+</newstitle>
+
+<abstract>
+	<font>
+		<color>#333333</color>
+		<family>Lucida Grande</family>
+		<size>12pt</size>
+		<weight></weight>
+		<style></style>
+	</font>
+	<padding>3px</padding>
+</abstract>
+
+<publishedDate>
+	<font>
+		<color>rgb(110,110,110)</color>
+		<family>Lucida Grande</family>
+		<size>8pt</size>
+		<weight></weight>
+		<style></style>
+	</font>
+	<enableOrNot>yes</enableOrNot>
+</publishedDate>
+
+<source>
+	<font>
+		<color>rgb(110,110,110)</color>
+		<family>Lucida Grande</family>
+		<size>8pt</size>
+		<weight></weight>
+		<style></style>
+	</font>
+	<enableOrNot>yes</enableOrNot>
+</source>
+
+<tags>
+	<font>
+		<color>red</color>
+		<family>Arial</family>
+		<size>8pt</size>
+		<weight></weight>
+		<style></style>
+	</font>
+	<enableOrNot>yes</enableOrNot>
+</tags>
+
+<table>
+	<width>700</width>
+	<cellSpacing>0</cellSpacing>
+	<cellPadding>0</cellPadding>
+	<backgroundColor>#ffffff</backgroundColor>
+</table>
+
+<firstColumn>
+	<padding>22px 10px 22px 40px</padding>
+	<border>5px solid #C2D22D</border>
+	<align>left</align>
+	<valign>top</valign>
+	<width></width>
+</firstColumn>
+
+<secondColumn>
+	<padding>22px 40px 0px 0px</padding>
+	<border>5px solid #C2D22D</border>
+	<align>left</align>
+	<valign>top</valign>
+	<width>200</width>
+</secondColumn>
+
+<pulse>
+	<backgroundColor>#EFEFEF</backgroundColor>
+	<headerColor>#766436</headerColor>
+	<itemColor>#00b2cd</itemColor>
+	<headerHorizontalRulerColor>2px inset #BECBEA</headerHorizontalRulerColor>
+</pulse>
+
+<favorites>
+	<backgroundColor>#FFFECE</backgroundColor>
+	<headerColor>#766436</headerColor>
+	<itemColor>#00b2cd</itemColor>
+	<headerHorizontalRulerColor>2px inset #BECBEA</headerHorizontalRulerColor>
+</favorites>
+
+<report>
+	<backgroundColor>#EFEFEF</backgroundColor>
+	<headerColor>#766436</headerColor>
+	<itemColor>#00b2cd</itemColor>
+	<headerHorizontalRulerColor>2px inset #BECBEA</headerHorizontalRulerColor>
+</report>
+</Design>

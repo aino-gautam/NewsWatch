@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Design>
+	<AlertName>
+		<Font>
+			<color>#766436</color>
+			<family>Georgia</family>
+			<size>30px</size>
+			<weight>500</weight>
+			<style></style>
+		</Font>
+		<TextAlignment>left</TextAlignment>
+	</AlertName>
+	<Logo>
+		<Alignment>right</Alignment>
+		<LogoImage>http://marketscape.facility.dir.dk/Lighthouse/images/nz/NZLogo.jpg</LogoImage>
+		<TargetUrl>http://www.novozymes.com/</TargetUrl>
+		<UseUploadedImg>false</UseUploadedImg>
+		<LogoImageUploadUrl> </LogoImageUploadUrl>
+		<AlternativeText>Novozymes-Media-Watch-Logo</AlternativeText>
+	</Logo>
+	<Date>
+		<Font>
+			<color>#bfbfbf</color>
+			<family>Georgia</family>
+			<size>12px</size>
+			<weight>normal</weight>
+			<style>italic</style>
+		</Font>
+		<TextAlignment>center</TextAlignment>
+	</Date>
+	<BaseTable>
+		<Width>700</Width>
+		<CellSpacing>0</CellSpacing>
+		<CellPadding>0</CellPadding>
+		<BackgroundColor></BackgroundColor>
+	</BaseTable>
+</Design>
