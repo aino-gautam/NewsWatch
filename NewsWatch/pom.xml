@@ -357,13 +357,13 @@
 						<module>com.appUtils.appUtils</module>
 						<module>com.common.common</module> -->
 												
-						<!-- <module>com.lighthouse.login.user.lhuser</module>
+						<module>com.lighthouse.login.user.lhuser</module>
 						<module>com.lighthouse.report.report</module>
 						<module>com.lighthouse.group.group</module>
 						<module>com.lighthouse.newsletter.newsletter</module>
-						<module>com.lighthouse.common.lhcommon</module> -->
+						<module>com.lighthouse.common.lhcommon</module>
 						<module>com.lighthouse.main.lhmain</module>
-						<!-- <module>com.lighthouse.main.newsitem.newItem</module>
+						<module>com.lighthouse.main.newsitem.newItem</module>
 						
 						<module>com.lighthouse.admin.lhadmin</module>
 						<module>com.lighthouse.comment.comment</module>
@@ -372,7 +372,7 @@
 						<module>com.lighthouse.newspage.newspage</module>
 						<module>com.lighthouse.search.search</module>
 						<module>com.lighthouse.statistics.statistics</module>
-						<module>com.lighthouse.utils.lhUtils</module> -->
+						<module>com.lighthouse.utils.lhUtils</module>
 											
 						<!-- <module>com.login.login</module>
 						<module>com.lonzaNewscenter.lonzaNewscenter</module>
